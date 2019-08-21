@@ -5,7 +5,8 @@ import { Header, Menu } from 'semantic-ui-react';
 const menuItems = [
   { name: 'Home', to: '/', exact: true },
   { name: 'Todos', to: '/todos' },
-  { name: 'GMO_Payment', to: '/gmo_payment'}
+  { name: 'GMO_Payment', to: '/gmo_payment'},
+  { name: 'Search_Reservation_Code', to: '/search_reservation_code'},
 ];
 
 class HeaderView extends Component {

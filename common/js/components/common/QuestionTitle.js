@@ -108,8 +108,8 @@ const QuestionTitle = (props) => {
 };
 
 QuestionTitle.defaultProps = {
-  requireLabel: '必須',
-  optionLabel: '任意',
+  requireLabel: 'required',
+  optionLabel: 'optional',
 };
 
 QuestionTitle.propTypes = {

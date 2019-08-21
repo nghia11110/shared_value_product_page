@@ -7,12 +7,15 @@ const Error = (props) => {
     balloon,
   } = props;
 
-  const className = `ac-c-error__balloon ${balloon && 'balloon'}`;
-
   return (
     <div>
       {error &&
-        <span className={className}>{error}</span>
+        <div className="ui negative message">
+          <i className="close icon"></i>
+          <div className="header">
+            {error}
+          </div>
+        </div>
       }
     </div>
   );
