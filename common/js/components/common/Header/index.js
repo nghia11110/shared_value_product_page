@@ -3,10 +3,10 @@ import { NavLink } from 'react-router-dom';
 import { Header, Menu } from 'semantic-ui-react';
 
 const menuItems = [
-  { name: 'Home', to: '/', exact: true },
-  { name: 'Todos', to: '/todos' },
-  { name: 'GMO_Payment', to: '/gmo_payment'},
-  { name: 'Search_Reservation_Code', to: '/search_reservation_code'},
+  // { name: 'Home', to: '/', exact: true },
+  // { name: 'Todos', to: '/todos' },
+  // { name: 'GMO_Payment', to: '/gmo_payment'},
+  { name: 'Home', to: '/'},
 ];
 
 class HeaderView extends Component {
