@@ -9,4 +9,3 @@ npm-debug.log*
 /webpack-assets.json
 /webpack-stats.json
 /react-loadable.json
-/package-lock.json
