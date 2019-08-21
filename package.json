@@ -1,12 +1,12 @@
 {
-  "name": "gmo-payment-nodejs",
-  "description": "implement gmo-payment by nodejs",
-  "version": "7.0.0",
+  "name": "sharedvalue-production-page",
+  "description": "sharedvalue-production-page",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "client/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nghia11110/gmo_payment_nodejs_demo.git"
+    "url": "https://github.com/nghia11110/shared_value_product_page"
   },
   "engines": {
     "node": "8.x.x",
