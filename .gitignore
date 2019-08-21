@@ -1,0 +1,12 @@
+npm-error.log
+.env
+node_modules
+npm-debug.log*
+.DS_Store
+
+# ignore built static files
+/dist
+/webpack-assets.json
+/webpack-stats.json
+/react-loadable.json
+/package-lock.json
