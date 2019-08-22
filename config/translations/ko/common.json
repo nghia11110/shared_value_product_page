@@ -1,158 +1,57 @@
 {
-  "permission_denied": "권한이 거부되었습니다.",
+  "permission_denied": "許可が拒否されました。",
+  "network_error": "ネットワークエラー",
+  "pserson_name": "{{name}} さん",
   "welcome": {
-    "title": "{{framework}}에 오신 것을 환영합니다",
+    "title": "ようこそ",
     "intro": "To get started, edit <1><0></0></1> and save to reload."
   },
-  "btn_edit": "Edit",
-  "btn_remove": "Delete",
-  "button_lang": {
-    "en": "English",
-    "ja": "日本語",
-    "kr": "한국어",
-    "ch_chs": "简体中文",
-    "ch_cht": "繁體中文",
-    "ko": "한국어",
-    "zh_chs": "简体中文",
-    "zh_cht": "繁體中文"
+  "edit": "編集",
+  "save": "保存",
+  "delete": "削除",
+  "send": "送信する",
+  "close": "閉じる",
+  "cancel": "キャンセル",
+  "loading": "処理中。。。",
+  "ok": "はい",
+  "yes_update": "アップデートする",
+  "no_update": "アップデートしない",
+  "error": "エラー",
+  "confirm": "確認",
+  "btn_add": "追加",
+  "btn_submit": "登録する",
+  "btn_save_continue": "途中保存",
+  "btn_edit": "修正",
+  "btn_remove": "削除",
+  "btn_done": "完了",
+  "create_new": "新規作成",
+  "create": "作成",
+  "invitation": "招待",
+  "save_setting": "設定保存",
+  "search_placeholder": "検索",
+  "btnPrev": "前へ",
+  "btnNext": "次へ",
+  "btnFinish": "完了",
+  "password": "パスワード",
+  "active": "アクティベート",
+  "msg_fail": "更新に失敗しました。",
+  "please_choose_an_option": "オプションを選択してください",
+  "publish": "公開する",
+  "unpublish": "未公開",
+  "yes": "はい",
+  "no": "いいえ",
+  "sidebar": {
+    "home": "ホーム"
   },
-  "guest_checkout" : {
-    "text": "キーボックス暗証番号を入力して返却してください",
-    "btn_1": "鍵の返却完了",
-    "btn_done": "Checkout",
-    "btn_back": "Back",
-    "step1": {
-      "title": "Reservation code",
-      "textbox": "Enter reservation code"
-    },
-    "step2": {
-      "title": "Please choose your language"
-    },
-    "return_room_key": "How to return room key",
-    "return_room_key_title": "How to return room key",
-    "return_room_key_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  "search_reservation_code": {
+    "title": "予約コード検索",
+    "description": "フォームに記入してください",
+    "first_name": "名",
+    "last_name": "姓",
+    "checkin": "チェックイン",
+    "checkout": "チェックアウト",
+    "phone_number": "携帯番号の下４桁"
   },
-  "guest_checkin" : {
-    "btn_end": "終了",
-    "btn_back": "Back",
-    "btn_next": "Next",
-    "btn_return": "Back",
-    "btn_call": "Call to host",
-    "btn_edit": "Edit",
-    "btn_save": "Save",
-    "btn_cancel": "Cancel",
-    "btn_checkin": "Checkin",
-    "btn_checkout": "Checkout",
-    "btn_longterm": "Long-term",
-    "btn_retry": "Retry",
-    "btn_recall": "Recall",
-    "btn_endcall": "End call",
-    "step1": {
-      "title": "言語を選択してください。"
-    },
-    "step2": {
-      "checkin": "チェックイン",
-      "checkout": "チェックアウト",
-      "long_stay": "長期滞在本人確認"
-    },
-    "step3": {
-      "title": "注意事項",
-      "text": "Lorem ipsum dolor sit amet consectetuer adipiscing elit. Hymenaeos cursus lacus. Aenean convallis sociosqu integer ligula est lacinia facilisis nec facilisis aenean. Inceptos cum ipsum natoque etiam velit euismod nam conubia. Justo egestas. Ve pretium malesuada rhoncus proin id nulla taciti interdum lacinia. Integer libero adipiscing morbi curabitur nisi vel montes. Imperdiet ullamcorper tincidunt donec non nibh arcu. Fames feugiat gravida elit ultricies enim nisl est quis lacus metus dictum nisl mus cras. Ac netus suspendisse penatibus convallis pretium. Parturient faucibus netus quam vitae magna. Mi morbi est pede sociis placerat pellentesque vehicula feugiat erat eget. Litora congue! Imperdiet diam vehicula morbi fringilla justo suspendisse accumsan. Parturient vivamus molestie fringilla nisi vitae enim cursus malesuada urna. Consectetuer sed laoreet massa. Eget porta facilisis justo pede. Risus magna cras semper hendrerit. Eget posuere nisl facilisis lorem proin id nisi. Rutrum commodo nam facilisis eu facilisis tempus primis mauris varius neque mi amet sapien pharetra. Aliquam parturient diam sagittis nonummy ridiculus. Aenean justo platea fermentum molestie pretium tortor sit. Cubilia? Facilisis est. Elementum tempus interdum sed purus. Conubia. Curae nulla dapibus per nonummy. Vitae iaculis ut lacinia curabitur quisque magna et lacus montes pharetra iaculis blandit cursus adipiscing! Donec tincidunt pede est sapien facilisis suspendisse. Elementum ipsum nam elit diam.",
-      "btn_agree": "同意"
-    },
-    "step4": {
-      "text": "予約コードを入力してください"
-    },
-    "step5": {
-      "full_name": "ゲスト（代表者）氏名：山本吉田",
-      "reservation_number": "予約番号：RSV000003",
-      "accommodation": "宿泊先：横浜",
-      "checkin": "チェックイン日",
-      "checkout": "チェックアウト日"
-    },
-    "step6": {
-      "title": "いまチェックインする人を選んでください",
-      "title_left": "チェックイン",
-      "title_right": "後ほどチェックイン"
-    },
-    "step7": {
-      "text": "さんの顔の位置を合わせてください",
-      "text_footer": "帽子、サングラスなどは外してください"
-    },
-    "step8": {
-      "text1": "本人確認が完了しました。 \n 暗証番号を控えてください。",
-      "text2": "キーボックス暗証番号",
-      "text3": "12345678"
-    },
-    "steps":{
-      "step1": "Guest Information",
-      "step2": "Video call",
-      "step3": "Password",
-      "step4": "鍵を取り出す"
-    }
-  },
-  "checkin": {
-    "decline": "Decline",
-    "btn_decline": "Decline",
-    "btn_ok": "OK",
-    "btn_send": "Send",
-    "pickup": "Pickup",
-    "btn_done": "Done",
-    "reason": "理由",
-    "checkinSteps": {
-      "step1": "ステップ　１",
-      "step2": "ステップ　２",
-      "step3": "ステップ　３",
-      "step4": "ステップ　４"
-    },
-    "title": "Checkin",
-    "step1": {
-      "h2": "ゲストがタブレットを操作したら通",
-      "h3": "知が来る",
-      "p": "(宿泊者情報確認中)"
-    },
-    "step2": {
-      "h2": "チェックイン",
-      "listingName": "リスティング名: ",
-      "guestName": "ゲスト名: ",
-      "number": "人数: "
-    },
-    "step3": {
-      "h2": "チェックイン",
-      "guestList": "ゲスト一覧",
-      "avatarBtn": "承認",
-      "idBtn": "否認"
-    },
-    "step4": {
-      "h2": "チェックイン",
-      "msgComplete1": "宿泊者全員完了",
-      "msgComplete2": "残人数"
-    },
-    "deny": {
-      "reason": "Reason"
-    },
-    "guest_detail": {
-      "prefix": "種別",
-      "name": "宿泊者氏名",
-      "gender": "性別",
-      "birthday": "生年月日",
-      "country": "国籍",
-      "carreer": "職業",
-      "telephone": "電話番号",
-      "address": "住所",
-      "previous_address": "前泊地",
-      "next_address": "後泊地"
-    }
-  },
-  "guest_complete": {
-    "page_title": "Guest information input screen（Creating Guest List）",
-    "title": "Guest information input screen（Creating Guest List）View mode",
-    "breadcrumb_home": "Home",
-    "breadcrumb_guest": "Agree to input Guest information Page",
-    "breadcrumb_complete": "Guest information Input Sample page",
-    "label_complete": "Input Guest information completed",
-    "label_thankyou": "Thank you very much。",
-    "button_back": "Back",
-    "label_error": "Can not load this url. Please contact to PMS to resolve."
-  }
+  "is_required": "必須",
+  "is_optional": "任意"
 }

@@ -10,6 +10,48 @@ import routes from '@routes';
 import configureStore from '@store';
 import App from '@containers/App';
 import config from '@config';
+// i18n
+import { I18nextProvider } from 'react-i18next';
+import i18next from 'i18next';
+import commonEn from '@translations/en/common.json';
+import commonJa from '@translations/ja/common.json';
+import commonZhChs from '@translations/zh_chs/common.json';
+import commonZhCht from '@translations/zh_cht/common.json';
+import commonKo from '@translations/ko/common.json';
+import validatorEn from '@translations/en/validator.json';
+import validatorJa from '@translations/ja/validator.json';
+import validatorZhChs from '@translations/zh_chs/validator.json';
+import validatorZhCht from '@translations/zh_cht/validator.json';
+import validatorKo from '@translations/ko/validator.json';
+import { DEFAULT_LANGUAGE } from '@constants';
+
+i18next.init({
+  interpolation: { escapeValue: false }, // React already does escaping
+  lng: DEFAULT_LANGUAGE, // language to use
+  ns: ['common', 'validator'],
+  resources: {
+    en: {
+      common: commonEn, // 'common' is our custom namespace
+      validator: validatorEn,
+    },
+    ja: {
+      common: commonJa,
+      validator: validatorJa,
+    },
+    zh_chs: {
+      common: commonZhChs,
+      validator: validatorZhChs,
+    },
+    zh_cht: {
+      common: commonZhCht,
+      validator: validatorZhCht,
+    },
+    ko: {
+      common: commonKo,
+      validator: validatorKo,
+    },
+  },
+});
 
 let stats = null;
 
@@ -91,7 +133,9 @@ export default function handleRender(req, res) {
     let component = (
       <Provider store={store}>
         <StaticRouter context={context} location={req.baseUrl}>
-          <App  />
+          <I18nextProvider i18n={i18next}>
+            <App />
+          </I18nextProvider>
         </StaticRouter>
       </Provider>
     );

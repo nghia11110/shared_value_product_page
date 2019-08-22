@@ -110,7 +110,7 @@ const QuestionTitle = (props) => {
 
 QuestionTitle.defaultProps = {
   requireLabel: i18n.t('common:is_required'),
-  optionLabel: i18n.t('is_optional'),
+  optionLabel: i18n.t('common:is_optional'),
 };
 
 QuestionTitle.propTypes = {

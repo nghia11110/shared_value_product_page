@@ -148,7 +148,7 @@ const SearchReservationCodeForm = (props) => {
       <Center>
         <Button
           type="submit"
-          content="Search"
+          content={i18n.t('common:search_placeholder')}
           active
         />
       </Center>

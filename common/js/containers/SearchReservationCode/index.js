@@ -10,7 +10,7 @@ import {
   SearchReservationCodeForm
 } from '@components/search-reservation-code';
 import SelectLanguage from '@components/common/SelectLanguage';
-import { withTranslation } from 'react-i18next';
+import { withNamespaces } from 'react-i18next';
 import i18n from '@lib/i18n';
 
 class SearchReservationCodeContainer extends Component {
@@ -48,4 +48,4 @@ const mapStateToProps = state => ({
   todos: state.todos,
 });
 
-export default withTranslation()(connect(mapStateToProps)(SearchReservationCodeContainer));
+export default withNamespaces()(connect(mapStateToProps)(SearchReservationCodeContainer));

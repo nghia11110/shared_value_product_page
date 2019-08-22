@@ -46,7 +46,7 @@ export const BREAKPOINT = {
 export const DEFAULT_LANGUAGE = 'en';
 export const LANGUAGE_OPTIONS = [
   { key: 'English', text: 'English', value: 'en' },
-  { key: 'Japanese', text: 'Japanese', value: 'ja' },
-  { key: 'Chinese', text: 'Chinese', value: 'zh_chs' },
-  { key: 'Korean', text: 'Korean', value: 'ko' },
+  { key: '日本語', text: 'Japanese', value: 'ja' },
+  { key: '简体中文', text: 'Chinese', value: 'zh_chs' },
+  { key: '한국어', text: 'Korean', value: 'ko' },
 ]
