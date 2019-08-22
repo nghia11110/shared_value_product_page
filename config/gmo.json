@@ -6,9 +6,9 @@
       "password": "ncn3esfq"
     },
     "production": {
-      "id": "",
-      "host": "",
-      "password": ""
+      "id": "tshop00035429",
+      "host": "kt01.mul-pay.jp",
+      "password": "ncn3esfq"
     }
   },
   "SITE_CONFIG": {
@@ -18,9 +18,9 @@
       "password": "4f4szhxr"
     },
     "production": {
-      "id": "",
-      "host": "",
-      "password": ""
+      "id": "tsite00031571",
+      "host": "kt01.mul-pay.jp",
+      "password": "4f4szhxr"
     }
   }
 }

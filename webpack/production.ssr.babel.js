@@ -1,6 +1,7 @@
 import nodeExternals from 'webpack-node-externals';
 import merge from 'webpack-merge';
 import path from 'path';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import config from '../config';
 import babelOpts from './babel.config.ssr';
 import { enableDynamicImports } from '../config';
@@ -52,7 +53,7 @@ export default merge.strategy({
   module: {
     rules: [
       {
-        test: /\.js|jsx$/,
+        test: /\.jsx$|\.js$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -85,7 +86,11 @@ export default merge.strategy({
             }
           }
         ]
-      }
+      },
+      {
+        test: /\.css$/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
+      },
     ]
   }
 });
