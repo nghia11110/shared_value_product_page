@@ -45,7 +45,7 @@
   },
   "search_reservation_code": {
     "title": "予約コード検索",
-    "description": "フォームに記入してください",
+    "description": "フォームに記入してから、「検索」ボタンを押してください",
     "first_name": "名",
     "last_name": "姓",
     "checkin": "チェックイン",
