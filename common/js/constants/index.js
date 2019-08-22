@@ -42,3 +42,11 @@ export const BREAKPOINT = {
   TABLET: 768,
   PHONE: 480,
 };
+
+export const DEFAULT_LANGUAGE = 'en';
+export const LANGUAGE_OPTIONS = [
+  { key: 'English', text: 'English', value: 'en' },
+  { key: 'Japanese', text: 'Japanese', value: 'ja' },
+  { key: 'Chinese', text: 'Chinese', value: 'zh_chs' },
+  { key: 'Korean', text: 'Korean', value: 'ko' },
+]

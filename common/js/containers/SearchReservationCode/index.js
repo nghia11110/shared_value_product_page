@@ -9,6 +9,9 @@ import { Container } from 'semantic-ui-react';
 import {
   SearchReservationCodeForm
 } from '@components/search-reservation-code';
+import SelectLanguage from '@components/common/SelectLanguage';
+import { withTranslation } from 'react-i18next';
+import i18n from '@lib/i18n';
 
 class SearchReservationCodeContainer extends Component {
   static propTypes = {
@@ -24,10 +27,11 @@ class SearchReservationCodeContainer extends Component {
   };
 
   render() {
-    const title = 'Search Reservation Code';
+    const title = i18n.t('common:search_reservation_code.title');
 
     return (
       <Container>
+        <SelectLanguage />
         <Helmet>
           <title>{title}</title>
         </Helmet>
@@ -41,8 +45,7 @@ class SearchReservationCodeContainer extends Component {
 }
 
 const mapStateToProps = state => ({
-  gmoPayments: state.gmoPayments,
-  todos: state.todos
+  todos: state.todos,
 });
 
-export default connect(mapStateToProps)(SearchReservationCodeContainer);
+export default withTranslation()(connect(mapStateToProps)(SearchReservationCodeContainer));

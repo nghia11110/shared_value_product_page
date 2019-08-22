@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import {BREAKPOINT, COLORS} from '@constants/index';
+import i18n from '@lib/i18n';
 
 const Title = styled.p`
   color: ${COLORS.HYPER_DARK_GRAY};
@@ -108,8 +109,8 @@ const QuestionTitle = (props) => {
 };
 
 QuestionTitle.defaultProps = {
-  requireLabel: 'required',
-  optionLabel: 'optional',
+  requireLabel: i18n.t('common:is_required'),
+  optionLabel: i18n.t('is_optional'),
 };
 
 QuestionTitle.propTypes = {

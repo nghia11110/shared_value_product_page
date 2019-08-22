@@ -1,0 +1,58 @@
+{
+
+  "permission_denied": "Permission Denied",
+  "network_error": "Network Error",
+  "pserson_name": "{{name}}",
+  "welcome": {
+    "title": "Welcome",
+    "intro": "To get started, edit <1><0></0></1> and save to reload."
+  },
+  "edit": "Edit",
+  "save": "Save",
+  "delete": "Delete",
+  "send": "Send",
+  "close": "Close",
+  "cancel": "Cancel",
+  "loading": "Loading...",
+  "ok": "OK",
+  "yes_update": "Update",
+  "no_update": "Do not update",
+  "error": "Error",
+  "confirm": "Confirm",
+  "btn_add": "Add",
+  "btn_submit": "Submit",
+  "btn_save_continue": "Save & Continue",
+  "btn_edit": "Edit",
+  "btn_remove": "Delete",
+  "btn_done": "Done",
+  "create_new": "Create new",
+  "create": "Create",
+  "invitation": "Invite",
+  "save_setting": "Save",
+  "search_placeholder": "Search",
+  "btnPrev": "<",
+  "btnNext": ">",
+  "btnFinish": "Done",
+  "password": "Password",
+  "active": "Active",
+  "msg_fail": "Updated failed",
+  "please_choose_an_option": "Please choose an option",
+  "publish": "Publish",
+  "unpublish": "Unpublish",
+  "yes": "Yes",
+  "no": "No",
+  "sidebar": {
+    "home": "home"
+  },
+  "search_reservation_code": {
+    "title": "Search Reservation Code",
+    "description": "Please fill out this form",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "checkin": "Checkin date",
+    "checkout": "Checkout date",
+    "phone_number": "Last 4 digits in your phone number"
+  },
+  "is_required": "required",
+  "is_optional": "optional"
+}

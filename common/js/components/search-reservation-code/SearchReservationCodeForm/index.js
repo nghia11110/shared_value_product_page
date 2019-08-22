@@ -9,12 +9,8 @@ import DatePickerField from '@components/common/DatePickerField';
 import TextInput from '@components/common/TextInput';
 import FieldContainer from '@components/common/FieldContainer';
 import QuestionTitle from '@components/common/QuestionTitle';
-import gmoConfig from '@utils/gmo/config';
-
-const {
-  SHOP_CONFIG,
-  // SITE_CONFIG,
-} = gmoConfig;
+import i18n from '@lib/i18n';
+import validatorCode from '@config/validator/validatorCode';
 
 const Center = styled.div`
   display: flex;
@@ -45,19 +41,19 @@ const FIELD_NAMES = {
 
 const VALIDATIONS = [{
   key: 'first_name',
-  error: 'please fill out first name',
+  error: i18n.t(`validator:${validatorCode.required}`, { attribute: i18n.t('common:search_reservation_code.first_name') }),
 },{
   key: 'last_name',
-  error: 'please fill out last name',
+  error: i18n.t(`validator:${validatorCode.required}`, { attribute: i18n.t('common:search_reservation_code.last_name') }),
 },{
   key: 'checkin',
-  error: 'please fill out checkin date',
+  error: i18n.t(`validator:${validatorCode.required}`, { attribute: i18n.t('common:search_reservation_code.checkin') }),
 },{
   key: 'checkout',
-  error: 'please fill out checkout date',
+  error: i18n.t(`validator:${validatorCode.required}`, { attribute: i18n.t('common:search_reservation_code.checkout') }),
 },{
   key: 'phone_number',
-  error: 'please fill out phone number',
+  error: i18n.t(`validator:${validatorCode.required}`, { attribute: i18n.t('common:search_reservation_code.phone_number') }),
 }];
 
 const SearchReservationCodeForm = (props) => {
@@ -71,11 +67,12 @@ const SearchReservationCodeForm = (props) => {
   const errorLength = Object.keys(errors).length;
   return (
     <form onSubmit={handleSubmit}>
-      please fill out this form
+      {i18n.t('common:search_reservation_code.description')}
       <FieldContainer>
-      	<div>
+        <div>
+          <Error error={(errors.first_name) && errors.first_name} />
           <QuestionTitle isRequire noQuestion isCenter>
-            First name
+            {i18n.t('common:search_reservation_code.first_name')}
           </QuestionTitle>
         </div>
         <DivContainer>
@@ -83,14 +80,14 @@ const SearchReservationCodeForm = (props) => {
             onChange={handleChange}
             name={FIELD_NAMES.firstName}
             id={FIELD_NAMES.firstName}
-            required
           />
         </DivContainer>
       </FieldContainer>
       <FieldContainer>
-      	<div>
+        <div>
+          <Error error={(errors.last_name) && errors.last_name} />
           <QuestionTitle isRequire noQuestion isCenter>
-            Last name
+            {i18n.t('common:search_reservation_code.last_name')}
           </QuestionTitle>
         </div>
         <DivContainer>
@@ -98,7 +95,6 @@ const SearchReservationCodeForm = (props) => {
             onChange={handleChange}
             name={FIELD_NAMES.lastName}
             id={FIELD_NAMES.lastName}
-            required
           />
         </DivContainer>
       </FieldContainer>
@@ -106,7 +102,7 @@ const SearchReservationCodeForm = (props) => {
         <div>
           <Error error={(errors.checkin) && errors.checkin} />
           <QuestionTitle isRequire noQuestion isCenter>
-            Checkin date
+            {i18n.t('common:search_reservation_code.checkin')}
           </QuestionTitle>
         </div>
         <DatePickerField
@@ -119,7 +115,7 @@ const SearchReservationCodeForm = (props) => {
         <div>
           <Error error={(errors.checkout) && errors.checkout} />
           <QuestionTitle isRequire noQuestion isCenter>
-            Checkout date
+            {i18n.t('common:search_reservation_code.checkout')}
           </QuestionTitle>
         </div>
         <DatePickerField
@@ -131,28 +127,24 @@ const SearchReservationCodeForm = (props) => {
       
       <FieldContainer>
         <div>
+          <Error error={(errors.phone_number) && errors.phone_number} />
           <QuestionTitle isRequire noQuestion isCenter>
-            Last 4 digits in your phone number
+            {i18n.t('common:search_reservation_code.phone_number')}
           </QuestionTitle>
         </div>
         <DivContainer>
           <TextInput
-          	type="tel"
+            type="tel"
             onChange={handleChange}
             name={FIELD_NAMES.phoneNumber}
             id={FIELD_NAMES.phoneNumber}
             maxLength="4"
             pattern="\d*"
             placeholder="0000"
-            required
           />
         </DivContainer>
       </FieldContainer>
-      {
-        (errorLength || '') &&
-        <p>Have {errorLength} errors!</p>
-      }
-     
+
       <Center>
         <Button
           type="submit"

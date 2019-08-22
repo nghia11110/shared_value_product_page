@@ -7,6 +7,8 @@ import createHistory from 'history/createBrowserHistory';
 import configureStore from '@store';
 import App from '@containers/App';
 import Loadable from 'react-loadable';
+import { I18nextProvider } from 'react-i18next';
+import i18n from '@lib/i18n';
 
 // Hydrate the redux store from server state.
 const initialState = window.__INITIAL_STATE__;
@@ -19,7 +21,9 @@ window.main = () => {
     ReactDOM.hydrate(
       <Provider store={store}>
         <ConnectedRouter history={history}>
-          <App />
+          <I18nextProvider i18n={i18n}>
+            <App />
+          </I18nextProvider>
         </ConnectedRouter>
       </Provider>,
       document.getElementById('app')

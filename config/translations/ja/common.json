@@ -1,0 +1,2344 @@
+{
+  "permission_denied": "許可が拒否されました。",
+  "network_error": "ネットワークエラー",
+  "pserson_name": "{{name}} さん",
+  "welcome": {
+    "title": "ようこそ",
+    "intro": "To get started, edit <1><0></0></1> and save to reload."
+  },
+  "edit": "編集",
+  "save": "保存",
+  "delete": "削除",
+  "send": "送信する",
+  "close": "閉じる",
+  "cancel": "キャンセル",
+  "loading": "処理中。。。",
+  "ok": "はい",
+  "yes_update": "アップデートする",
+  "no_update": "アップデートしない",
+  "error": "エラー",
+  "confirm": "確認",
+  "btn_add": "追加",
+  "btn_submit": "登録する",
+  "btn_save_continue": "途中保存",
+  "btn_edit": "修正",
+  "btn_remove": "削除",
+  "btn_done": "完了",
+  "create_new": "新規作成",
+  "create": "作成",
+  "invitation": "招待",
+  "save_setting": "設定保存",
+  "search_placeholder": "検索",
+  "btnPrev": "前へ",
+  "btnNext": "次へ",
+  "btnFinish": "完了",
+  "password": "パスワード",
+  "active": "アクティベート",
+  "msg_fail": "更新に失敗しました。",
+  "please_choose_an_option": "オプションを選択してください",
+  "publish": "公開する",
+  "unpublish": "未公開",
+  "yes": "はい",
+  "no": "いいえ",
+  "host_management": {
+    "btn_import": "ホストインポート",
+    "modal_title_import": "ホストインポート"
+  },
+  "checkin": {
+    "decline": "通話しない",
+    "btn_decline": "否認",
+    "btn_ok": "承認",
+    "btn_send": "送信",
+    "pickup": "通話する",
+    "btn_done": "完了",
+    "reason": "理由",
+    "complete_msg": "{{checkinNow}}/{{total}}人がチェックイン完了しました。",
+    "guest_decline_checkin": "ゲストがチェックインを強制終了しました。",
+    "guest_reach_max": "ゲストはリトライ回数オーバーしました。",
+    "checkinSteps": {
+      "step1": "ステップ　１",
+      "step2": "ステップ　２",
+      "step3": "ステップ　３",
+      "step4": "ステップ　４"
+    },
+    "guest_list": "ゲスト一覧",
+    "title": {
+      "checkin": "チェックイン",
+      "long_term": "長期滞在"
+    },
+    "step1": {
+      "h2": "ゲストがタブレットを操作したら通",
+      "h3": "知が来る",
+      "p": "(宿泊者情報確認中)"
+    },
+    "step2": {
+      "h2": "チェックイン",
+      "listingName": "リスティング名: ",
+      "guestName": "ゲスト名: ",
+      "number": "人数: "
+    },
+    "step3": {
+      "h2": "チェックイン",
+      "guestList": "ゲスト一覧",
+      "avatarBtn": "承認",
+      "idBtn": "否認"
+    },
+    "step4": {
+      "h2": "チェックイン",
+      "msgComplete1": "宿泊者全員完了",
+      "msgComplete2": "残人数"
+    },
+    "deny": {
+      "reason": "理由"
+    },
+    "notification": {
+      "title": "予約情報",
+      "listing_name": "リスティング名",
+      "checkin_date": "チェックイン日",
+      "guest_name": "ゲスト名"
+    },
+    "reservation_info": {
+      "name": "ゲスト名",
+      "checkin_date": "チェックイン日",
+      "listing_name": "リスティング名",
+      "check_in_out_time": "チェックイン/ アウト時間",
+      "early_check_in": "アーリーチェックイン/荷物受入れ"
+    }
+  },
+  "longterm": {
+    "steps": {
+      "step1": "ステップ　１",
+      "step2": "ステップ　２",
+      "step3": "ステップ　３",
+      "step4": "ステップ　４"
+    },
+    "title": "長期滞在確認",
+    "step1": {
+      "h2": "長期滞在確認",
+      "h3": "ゲストがタブレットを操作したら通知が来る",
+      "p": "(宿泊者情報確認中)"
+    },
+    "step2": {
+      "h2": "長期滞在確認",
+      "listingName": "リスティング名: ",
+      "guestName": "ゲスト名: ",
+      "number": "人数: ",
+      "person": "名"
+    },
+    "step3": {
+      "h2": "長期滞在確認",
+      "guestList": "ゲスト一覧",
+      "avatarBtn": "承認",
+      "idBtn": "否認"
+    },
+    "step4": {
+      "h2": "チェックイン",
+      "msgComplete1": "宿泊者全員完了",
+      "msgComplete2": "残人数表示"
+    }
+  },
+  "broadcast_Setting": {
+    "broadcast_setting": "一斉送信設定",
+    "by_listing": "リスティング別",
+    "template_selection": "テンプレ選択",
+    "common_to_all_listings": "全リスティング共通",
+    "broadcast": "一斉送信",
+    "configuration": "設定",
+    "is_edit": "{{user}}が編集中",
+    "save_contents": "内容保存",
+    "day_ago": "日前",
+    "day": "日",
+    "before": "前",
+    "list_name": "リスティング名称",
+    "transmission_timing": "送信タイミング",
+    "search": "サーチ",
+    "checkout": "チェックアウト",
+    "select_box": {
+      "checkin": "チェックイン",
+      "greeting": "あいさつ",
+      "day": "日",
+      "before": "前"
+    },
+    "table": {
+      "header": {
+        "listing_name": "リスティング名称",
+        "select_all_clear": "全選択／クリア"
+      }
+    }
+  },
+  "house": {
+    "listing_management": "リスティング管理",
+    "you_can_manage_listing_on_this_page": "このページでリスティングの管理ができます",
+    "btn_price_adjustment": "価格調整",
+    "btn_room_copy": "ルームコピー",
+    "btn_update_inventory": "在庫更新",
+    "btn_update_inventory_waiting": "在庫更新中。。。",
+    "note": "メモ",
+    "popup_update_inventory": {
+      "title": "在庫更新確認",
+      "content": "在庫情報をAirbnbへアップデートしますか。"
+    },
+    "popup_reservation_refresh": "このリスティングにおいて、インポートされる予約が全てアクティベートされます。\n引き続き現在の在庫情報をAirbnbへアップデートしますか。",
+    "msg_room_copy_success": "ルームコピーが成功しました！",
+    "btn_room_waiting": "ルームコピー中",
+    "continue_copy_room": "ルームコピーを続けますか。",
+    "confirm_copy_room": "ルームコピー確認",
+    "number_copy_room": "コピーしたい部屋の数",
+    "automatic_transmission_setting": {
+      "reservation_confirm": "予約確定",
+      "enter_guest_information": "宿泊者情報入力",
+      "5days_before_checkin": "チェックイン5日前",
+      "1days_before_checkin": "チェックイン前",
+      "face_authentication_end": "顔認証終了",
+      "day_before_checkout": "チェックアウト前日",
+      "3days_after_checkout": "チェックアウト3日後",
+      "custom": "カスタム",
+      "automatic_transmission_message": "予約確定時の自動送信メッセージ",
+      "select_en_ja_zh_ko": "※英語、日本語、中国語、韓国語を選択しそれぞれに入力",
+      "send_on_off": "送信ON/OFF",
+      "send_on": "送信ON",
+      "send_off": "送信OFF",
+      "before_booking_confirmed": "予約確定前",
+      "days_after_checkin": "チェックイン後",
+      "days_after_checkout": "チェックアウト後",
+      "long_term_stay": " 長期滞在確認",
+      "place_holder_equipment": "設備情報検索",
+      "alert": {
+        "save": "自動送信設定を登録しました。"
+      },
+      "guest_info": "宿泊者情報を入力したゲストへ",
+      "guest_complete": "チェックインしたゲストへ",
+      "guest_hasnt_complete": "宿泊者情報を全員分入力していないゲストへ",
+      "guest_all": "全てのゲストへ",
+      "long_term": "長期滞在ゲストへ",
+      "after_check_out": {
+        "guest_returned_key": "鍵を返却しないゲストへ"
+      }
+    },
+    "task_list": {
+      "individual_task": "個別タスク",
+      "before_booking": "予約前",
+      "gender_confirmation_only_male": "性別確認※男性のみOK.",
+      "age_confirmation_under_7years_old_NG": "年齢確認※7歳未満NG.",
+      "check_intime_confirmed": "チェックイン時間確認.",
+      "check_in_date": "チェックイン日",
+      "during_your_stay": "滞在中",
+      "guide_for_garbage_collection_for_people_over_nights": "{{night}}泊以上の人へのゴミ回収案内.",
+      "after_checker": "チェックアウト後",
+      "common_task": "共通タスク",
+      "accommodation_information_obtained": "宿泊者情報入手",
+      "welcome_guide_sent": "ウェルカムガイド送付",
+      "identification": "本人確認",
+      "review_post": "レビュー投稿",
+      "button_save": "保存"
+    },
+    "common_template_settings": {
+      "category_selection": "カテゴリー選択",
+      "default": "デフォルト",
+      "template_title": "テンプレートタイトル",
+      "how_to_open_the_key": "鍵の開け方",
+      "kitchenware": "調理器具",
+      "contents": "内容",
+      "alert": {
+        "save": "テンプレートを登録しました。"
+      },
+      "import": {
+        "title": "インポート",
+        "successful": "テンプレートインポートに成功しました。",
+        "fail": "テンプレートインポートに失敗しました。",
+        "excel": "エクセルファイルは必要です。"
+      }
+    },
+    "guide_book": {
+      "tab_title": "ガイド",
+      "listing": "リスティング",
+      "manual": "マニュアル",
+      "group_manual": "マニュアル",
+      "welcome_guide": "ウエルカムガイド",
+      "house_guide": "ハウスマニュアル",
+      "btn_download": "閲覧",
+      "btn_upload": "アップロード",
+      "modal_upload": {
+        "loading": "積載...",
+        "fail": "テンプレートインポートに失敗しました。",
+        "file_size": "ファイルには、30 MBのファイルを指定してください。"
+      },
+      "modal_delete": {
+        "confirm": "このファイルを削除します。よろしいですか？"
+      }
+    },
+    "guest_list": {
+      "btn_download": "ダウンロード"
+    },
+    "service": {
+      "tab_title": "サービサー",
+      "subject": "リスティング編集（サービサー選択 / 清掃費、清掃報酬設定）",
+      "service_select": "サービサー選択",
+      "service_name": "サービス用名",
+      "service_charge": "担当サービス",
+      "fee_clean": "清掃報酬",
+      "fee_airbnb": "Airbnb清掃費",
+      "fee_company": "清掃業者報酬",
+      "service_selection_title": "サービサー選択",
+      "cleaning_fee_title": "清掃報酬",
+      "information_title": "鍵情報",
+      "service_select_input": {
+        "lbl_content": "サービス内容",
+        "select_message": "メッセージ",
+        "select_on_the_spot_support": "駆けつけ",
+        "select_cleaning": "清掃",
+        "select_key": "鍵",
+        "select_content": "サービス内容"
+      },
+      "fee_clean_input": {
+        "fee_clean": "Airbnb清掃費",
+        "fee_cleaner": "清掃業者報酬"
+      },
+      "key_registration": "鍵登録",
+      "Key_ID_Password": "鍵ID. パスワード",
+      "Key_Password": "鍵パスワード",
+      "Key_ID": "鍵ID",
+      "key": {
+        "title": "鍵情報",
+        "table": {
+          "header": {
+            "group_name": "ルーム名称",
+            "id": "ID",
+            "password": "パスワード"
+          }
+        },
+        "modals": {
+          "title": "鍵編集",
+          "id": "ID",
+          "keystation_key_slot_number": "Keyスロット番号",
+          "password": "パスワード",
+          "spare_key": "スペアキー",
+          "master_key": "マスターキー",
+          "location": "設置場所",
+          "btn_get_keystation_password": "キーステーションパスワードを取得"
+        }
+      },
+      "alert": {
+        "save": "更新しました。"
+      }
+    },
+    "clean_checklist": {
+      "tab_title": "清掃チェックリスト",
+      "listing_setting": "リスティング設定",
+      "clean_related_setting": "清掃関連設定",
+      "clean_checklist": "＜清掃 Check List＞",
+      "btn_add": "追加",
+      "btn_save": "保存",
+      "clean_information": "＜清掃用情報＞",
+      "enter_leave": "・入室方法・退室方法",
+      "room_size": "・部屋サイズ",
+      "number_of_bed": "・ベッド数",
+      "enter_leave_room": "・入室・退室時間",
+      "enter": "入",
+      "leave": "退",
+      "clean_time": "・清掃目安時間",
+      "other_note": "・その他・メモ",
+      "placeholder": "掃除チェックリストを入力",
+      "cleaning_information": "情報",
+      "cleaning_enter_leave": "宿泊の入出ガイド",
+      "cleaning_room_size": "部屋サイズ",
+      "cleaning_number_of_bed": "ベッドの数",
+      "cleaning_enter": "イン",
+      "cleaning_leave": "アウト",
+      "cleaning_time": "予定時刻",
+      "cleaning_note": "メモ",
+      "cleaning_checklist_title": "清掃チェックリスト"
+    },
+    "equipment": {
+      "title": "設備一覧設定",
+      "upload": "アップロード",
+      "listing_namne_equipment_id": "物件名・施設ID",
+      "account_information": "アカウント情報",
+      "listing_access_information": "物件アクセス情報",
+      "wifi": "WiFi",
+      "guide": "ガイド",
+      "facility_information": "施設情報",
+      "amenity": "備品・アメニティ",
+      "cleaning": "清掃関係",
+      "others": "その他",
+      "legal_requirement": "法的要件",
+      "key": "鍵",
+      "note": "備考",
+      "text_area_memo": "物件メモ",
+      "search_placeholder": "設備検索",
+      "account_information_content": {
+        "last_update_date": "最終更新日（変更があったら更新）",
+        "new_create_and_take_over_listing": "リスティング新規作成・引継ぎ",
+        "operation_authorization": "運営認可",
+        "sublet_owners_house": "転貸・持ち家",
+        "landlord_resident_type": "家主居住型・不在型",
+        "owner_name": "オーナー名",
+        "airbnb_listing_name_english": "Airbnbリスティング名(English)",
+        "airbnb_listing_name_japanese": "Airbnbリスティング名(日本語)",
+        "airbnb_listing_name_chinese": "Airbnbリスティング名(中国語)",
+        "airbnb_listing_name_korean": "Airbnbリスティング名(韓国語)",
+        "listing_url": "リスティングURL"
+      },
+      "house_content": {
+        "welcome_guide": "ウェルカムガイド",
+        "house_manual": "ハウスマニュアル"
+      },
+      "listing_access_information_content": {
+        "listing_address": "物件住所",
+        "nearest_station": "最寄り駅",
+        "nearest_coin_parking": "最寄コインパーキング",
+        "parking_lot": "駐車場有無",
+        "key_delivery_method": "鍵の受け渡し方法",
+        "rushen_key_location": "駆けつけ／清掃時の鍵の場所\n（暗証番号）",
+        "check_in_place": "チェックイン場所",
+        "check_in_out_time": "チェックイン/アウト時間",
+        "early_check_in": "アーリーチェックイン/レイトチェックアウト/荷物受け入れの可否"
+      },
+      "wifi_content": {
+        "Wifi_home": "wifiの有無・（ホーム）",
+        "Wifi_id": "Wi-Fi ID",
+        "Wifi_pw_1": "Wi-Fi P/W",
+        "Wifi_pocket": "wifiの有無・（ポケット）",
+        "Wifi_ssid": "Wi-Fi SSID",
+        "wifi_pw_2": "Wi-Fi P/W",
+        "note": "備考"
+      },
+      "facility_information_content": {
+        "listings_floor_plan": "物件間取り図（リンク）",
+        "number_of_squares": "平米数",
+        "room_size": "部屋サイズ",
+        "maximum_number_of_people_staying": "宿泊最大人数",
+        "gas_meter_position": "ガスメーター位置",
+        "breaker_position": "ブレーカー位置",
+        "capacitance": "電気容量",
+        "position_of_water_heater": "給湯器の位置",
+        "tv_antenna": "テレビアンテナ有無",
+        "type_and_number_of_beds": "ベッドの種類・数",
+        "other_bedding": "その他寝具類",
+        "number_of_toilets": "トイレの数（\nメーカー名）",
+        "number_of_bathrooms": "浴室の数",
+        "balcony": "バルコニーの有無",
+        "wash_dry": "洗濯干す可否",
+        "elevator": "エレベーターの有無"
+      },
+      "amenity_content": {
+        "table": "テーブル（椅子）",
+        "floor_lamp_etc": "フロアランプ等",
+        "air_condition": "エアコン",
+        "washing_machine": "洗濯機",
+        "refrigerator": "冷蔵庫",
+        "microwave": "電子レンジ",
+        "kettle": "ケトル",
+        "tv": "テレビ",
+        "vacuum_cleaner": "掃除機",
+        "iron_machine_unit": "アイロン（台）",
+        "hairdryer": "ドライヤー",
+        "stove": "コンロ",
+        "dishwasher": "食器洗い機",
+        "other_consumer_electronics": "その他家電",
+        "cooking_utilities": "調理器具",
+        "others": "その他",
+        "dishes": "食器",
+        "cutlery": "カトラリー",
+        "clothes_hanger": "ハンガー"
+      },
+      "cleaning_content": {
+        "cleaning_company": "清掃会社",
+        "how_to_dispose_of_garbage": "ゴミの処理方法",
+        "cleaning_fee": "清掃料金",
+        "garbage_dumping_in_listing": "物件内のゴミ捨て場",
+        "nearest_coin_launderette": "最寄コインランドリー"
+      },
+      "orthers_content": {
+        "locker_info": "ロッカー情報",
+        "listings_attention_points": "物件の注意点",
+        "freely_described_on_other_part": "その他自由に記載",
+        "initial_pricing_standard": "初期価格設定基準",
+        "childrens_fare": "子供料金（ディスカウント）",
+        "weekly_monthly_discount": "週割/月割",
+        "release_date": "公開日（引継ぎ日）"
+      },
+      "legal_requirement_content": {
+        "legal_requirements_by_region": "地域別の法的要件",
+        "available_days_year": "稼働できる日数/年"
+      },
+      "key_content": {
+        "guest_key": "ゲストキー",
+        "spare_key": "スペアキー",
+        "master_key": "マスターキー"
+      },
+      "note_content": {
+        "note": "備考"
+      },
+      "alert": {
+        "amenity": {
+          "save": "更新しました。",
+          "invalid_file_extension": "無効なファイル拡張子"
+        }
+      }
+    },
+    "modal_price_setting": {
+      "title": "価格追加",
+      "start_date": "開始日",
+      "end_date": "終了日",
+      "availability": "可用性",
+      "price": "価格",
+      "btn_close": "閉じる",
+      "btn_update": "更新",
+      "option": {
+        "available": "可用",
+        "blocked": "ブロックされた"
+      }
+    },
+    "alert": {
+      "30mb": "ファイルには、30 MBのファイルを指定してください。",
+      "upload_failed": "アップロードが失敗しました"
+    },
+    "btn_new_rules_group": "ルールセットを追加...",
+    "modal_new_rule_group": {
+      "title": "ルールセット作成",
+      "btn_cancel": "キャンセル",
+      "btn_save": "保存",
+      "labels": {
+        "title": "ルールセット名 ",
+        "color": "カラー (カレンダー用)",
+        "pricing": "料金設定",
+        "availability": "予約可能状況",
+        "customize": "カスタマイズ",
+        "nightly_price": "1泊料金",
+        "length_of_stay_discount": "連泊割引",
+        "last_minute_discounts": "直前割引",
+        "early_bird_discounts": "早期割引",
+        "decrease": "値下げする",
+        "increase": "値上げする",
+        "add_a_custom_discount": "カスタム割引を設定",
+        "nights": "{{night}} 泊",
+        "weekly": "週割",
+        "monthly": "月額割引",
+        "nights_discount": "{{night}} 連泊割引",
+        "weekly_discount": "週割",
+        "monthly_discount": "月額割引",
+        "add_another": "さらに追加",
+        "discount_starts": "割引開始",
+        "discount": "割引",
+        "days_before_arrival": "日前から有効",
+        "discount_ends": "割引有効期限",
+        "months_before_arrival": "か月前まで有効",
+        "trip_length": "宿泊日数",
+        "check_in_and_checkout_days": "チェックイン、チェックアウトの曜日",
+        "minimum_stay": "最低宿泊日数",
+        "maximum_stay": "最大宿泊日数",
+        "nights_text": "泊",
+        "customize_min_stay": "チェックイン曜日別に最低泊数をカスタマイズ",
+        "mondays_checkin": "月 チェックイン",
+        "tuesdays_checkin": "火 チェックイン",
+        "wednesdays_checkin": "水 チェックイン",
+        "thursdays_checkin": "木 チェックイン",
+        "fridays_checkin": "金 チェックイン",
+        "saturdays_checkin": "土 チェックイン",
+        "sundays_checkin": "日 チェックイン",
+        "checkin_deny": "チェックインできない曜日:",
+        "checkout_deny": "チェックアウトできない曜日:",
+        "mondays": "月",
+        "tuesdays": "火",
+        "wednesdays": "水",
+        "thursdays": "木",
+        "fridays": "金",
+        "saturdays": "土",
+        "sundays": "日",
+        "select_nights" : "泊数を選択"
+      },
+      "notes": {
+        "nightly": "この期間限定の1泊料金の求め方をまず決めましょう。残りのルールはこの1泊料金をベースに適用されます。",
+        "length_of_stay_discounts": "長めの予約でお得になるプラン。週割、月割、希望泊数で設定できます。",
+        "last_minute_discounts": "間際の売りつくしスペシャルで、突然の旅で困っている人に助け舟を出そう。",
+        "early_bird_discounts": "早めの予約でお得になるプランをオファーしましょう。",
+        "trip_length": "最低&最大宿泊日数を設定しましょう。必要なら曜日別に変えてもOK。",
+        "check_in_and_checkout_days": "チェックインできない曜日、チェックアウトできない曜日も指定できます"
+      }
+    }
+  },
+  "guest": {
+    "title": "宿泊者情報入力",
+    "header": "個人情報の取り扱いについて",
+    "text": "/assets/term/japanese.txt",
+    "btn_approval": "同意",
+    "message_select_term": "上記内容に同意して次へ"
+  },
+  "inbox": {
+    "main_title": "受信トレイ・タスク分担画面",
+    "message_title": "メッセージ",
+    "task_title": "タスク",
+    "task": {
+      "col1": "アクション時間",
+      "col2": "リスティング名称",
+      "col3": "タスク",
+      "col4": "ステイタス",
+      "col5": "担当会社",
+      "col6": "アサインTO"
+    },
+    "read": {
+      "col1": "配信",
+      "col2": "リスティング名",
+      "col3": "ゲスト名",
+      "col4": "ゲストの言語",
+      "col5": "新メッセージ",
+      "col6": "インサポート"
+    },
+    "message_status": {
+      "all": "全て"
+    }
+  },
+  "listing": {
+    "title": "部屋一覧",
+    "room_detail": "部屋詳細",
+    "content": "このページでリスティングを追加・削除・管理できます",
+    "keyword_search": "検索",
+    "keyword_search_owner": "ホスト",
+    "keyword_search_listing_name": "リスティング",
+    "keyword_search_listing_id": "リスティングID",
+    "keyword_search_address": "住所",
+    "keyword_search_template": "テンプレート検索",
+    "btn_import": "リスティングインポート",
+    "btn_add": "新規作成",
+    "transmission_time": "送信タイミング",
+    "next_vertification": "次の本人確認",
+    "checkin": "チェックイン",
+    "checkout": "チェックアウト",
+    "immediate": "まもなく",
+    "day": "日",
+    "time": "時",
+    "before": "前",
+    "after": "後",
+    "msg_import_airbnb": "リスティングインポートを開始します。",
+    "msg_import_listing_success": "リスティングインポートが成功しました。",
+    "import_all": "全てのリスティング",
+    "import_one": "一つのリスティング",
+    "btn_import_modal": "インポート",
+    "msg_save_listing_success": "リスティング情報を登録しました。",
+    "modal_rule_group": {
+      "set_rule_title": "ルールセット",
+      "btn_save": "保存",
+      "btn_edit": "編集",
+      "start_date": "開始日",
+      "end_date": "終了日",
+      "btn_cancel": "キャンセル",
+      "select_option": {
+        "none": "なし",
+        "multiple_rule": "複数の季節"
+      }
+    },
+    "listing_table": {
+      "listing_name": "リスティング名",
+      "listing_id": "リスティングID",
+      "listing_nickname": "リスティングニックネーム名",
+      "airbnb_listing_name": "リスティングニックネーム名",
+      "status": "公開／非公開",
+      "address": "住所",
+      "owner": "ホスト",
+      "key_password": "鍵パスワード",
+      "key": "鍵ステイタス",
+      "created_date": "登録日",
+      "updated_date": "更新日",
+      "expected_publish_date": "公開予定日",
+      "open_date": "開始日",
+      "france": "フランチャイズ",
+      "on_the_spot_support": "駆けつけ",
+      "airbnb_title": "Airbnbタイトル",
+      "registration_number": "許可番号",
+      "state": "国/地域",
+      "start_date": "開始日",
+      "end_date": "終了日"
+    },
+    "form_search_listing": {
+      "placeholder_franchise": "フランチャイズ"
+    },
+    "create_listing": {
+      "title": "リスティング作成",
+      "review": "入力した情報をレビュー",
+      "airbnb_information": "Airbnb上の情報",
+      "pms_information": "PMS上の情報"
+    },
+    "tab_parent": {
+      "calendar": "カレンダー",
+      "automatic": "自動送信設定",
+      "individual": "個別テンプレート設定",
+      "template": "共通テンプレート設定",
+      "equipment": "設備一覧設定",
+      "guide_book": "ガイド",
+      "clean_checklist": "清掃チェックリスト",
+      "listing_information": "リスティング情報",
+      "listing_service": "サービサー"
+    },
+    "calendar": {
+      "reservation": "予約",
+      "cancel": "キャンセル",
+      "booking_request": "予約リクエスト",
+      "cleaning": "清掃",
+      "pending": "予約リクエスト",
+      "price": "価格",
+      "month": "月",
+      "week": "週",
+      "day": "日",
+      "today": "本日",
+      "previous": "戻り",
+      "next": "次",
+      "total_night": "稼働日数",
+      "rule": "ルール"
+    },
+    "listing_status": {
+      "private": "非公開",
+      "public": "公開",
+      "btn_publish": "公開",
+      "btn_unpublish": "非公開"
+    },
+    "key_status": {
+      "in": "イン",
+      "out": "アウト"
+    }
+  },
+  "pagination": {
+    "empty_data": "一致するレコードがありません",
+    "first": "先頭",
+    "last": "最終",
+    "previous": "次",
+    "next": "前",
+    "page": "ページ",
+    "of": "/",
+    "rows": "行"
+  },
+  "reservation": {
+    "title": "予約一覧",
+    "content": "",
+    "keyword_search": "検索",
+    "text_case": "件数： {{case}}件",
+    "reservation_table": {
+      "request_date_time": "アクション日",
+      "check_in_date": "チェックイン日",
+      "check_out_date": "チェックアウト日",
+      "reservation_code": "予約コード",
+      "listing": "リスティング名",
+      "guest_name": "ゲスト名",
+      "status": "予約ステイタス",
+      "guest_information": "宿泊者入力ステイタス",
+      "checkin_status": "チェックインステイタス",
+      "key_status": "鍵ステイタス",
+      "task_1": "タスク１",
+      "task_2": "タスク２",
+      "task_3": "タスク３",
+      "partner_type": "パートナータイプ"
+    },
+    "check_in_status": {
+      "all": "全て",
+      "complete": "COMPLETE",
+      "in_complete": "INCOMPLETE",
+      "not_started": "NOT STARTED"
+    },
+    "reservation_status": {
+      "accept": "Accepted",
+      "deny": "Declined",
+      "pending": "Reservation Request",
+      "timeout": " Expired",
+      "pending_voided": "Pending Voided",
+      "pending_payment": "Awaiting Payment",
+      "cancelled_by_admin": "Canceled by Admin",
+      "cancelled_by_host": "Canceled by Host",
+      "cancelled_by_guest": "Canceled by Guest",
+      "at_checkpoint": "Action Required",
+      "checkpoint_voided": "Checkpoint Voided",
+      "failed_verification": "",
+      "inquiry": "Inquiry",
+      "Inquiry": "Inquiry",
+      "SpecialOffer": "Special Offer",
+      "Reservation": "Reservation",
+      "unassigned": "Unassigned"
+    },
+    "alert": {
+      "updated": "更新に成功しました"
+    },
+    "refesh": {
+      "content1": "下記の機能の設定を行って、アクティベートしてください\n・ルームコピーの設定（在庫がある場合）\n・サービサーの設定（メッセージ代行、鍵のサービスなど）\n・部屋の鍵を登録（鍵情報を登録）\n・自動送信（該当する自動送信設\n定）",
+      "content2": "＊一回アクティベートしてしまうと、再設定はできません例）\n・アクティベートの後、自動送信設定しても、メッサージが自動で送られない \n・アクティベートの後、ルームコピーやサービサーを設定しても、該当のルームにアサインできず、在庫管理やチェックイン機能は起動しない",
+      "content3": "上記の機能の設定を確認の上、アクティベートしてください",
+      "error": "問題が発生したため、\nアクティベートはできませんでした\n再度アクティベートお願いします"
+    },
+    "notification_modal": {
+      "title": "予約内容変更",
+      "unread": "未読のまま",
+      "close": "閉じる"
+    },
+    "notification_title": "予約内容変更"
+  },
+  "notice": {
+    "title": "メイン画面",
+    "notice": "お知らせ",
+    "incoming_call": "入電",
+    "login_user_list": "ログイン中ユーザー一覧",
+    "login_name": "ログイン名",
+    "number_of_properties": "物件数",
+    "occupancy_rate": "稼働率",
+    "local_news": "民泊ニュース",
+    "overall_table": {
+      "overall": "全体評価",
+      "cleanliness": "清潔",
+      "correct": "正確",
+      "cospa": "コスパ",
+      "communication": "コミュニケーション",
+      "arrival": "到着",
+      "location": "立地",
+      "comprehensive": "総合評価"
+    },
+    "task_table": {
+      "title": "当日タスク",
+      "check_in": "チェックイン",
+      "check_out": "チェックアウト",
+      "guest_list": "宿泊者名簿",
+      "review": "レビュー",
+      "cleaning": "清掃",
+      "rush": "駆けつけ"
+    }
+  },
+  "guest_complete": {
+    "page_title": "宿泊者情報入力画面（宿泊者名簿作成）",
+    "title": "宿泊者情報入力画面（宿泊者名簿作成）ビューモード",
+    "view_mode": "ビューモード",
+    "breadcrumb_home": "Home",
+    "breadcrumb_guest": "宿泊者情報入力同意ページ",
+    "breadcrumb_complete": "宿泊者情報入力サンプルページ",
+    "label_complete": "宿泊者情報入力を終了しました。",
+    "label_thankyou": "誠にありがとうございました。",
+    "button_back": "終了",
+    "label_error": "Can not load this url. Please contact to PMS to resolve."
+  },
+  "review": {
+    "title": "レビュー投稿",
+    "search": "検索"
+  },
+  "chat": {
+    "title": "チャット",
+    "during_correspondence": "対応中",
+    "equipment_list": "設備一覧",
+    "template": "テンプレート",
+    "task": "タスク",
+    "note": "物件メモ",
+    "btn_task": "タスク",
+    "person_call": "さんが",
+    "booking_info": {
+      "checkin": "チェックイン",
+      "checkout": "チェックアウト",
+      "address": "住所",
+      "guest_name": "ゲスト氏名",
+      "check_in_date": "チェックイン日",
+      "check_out_date": "チェックアウト日",
+      "length_of_stay": "宿泊日数",
+      "nights": "日",
+      "booking_code": "予約コード",
+      "number_of_guest": "宿泊人数",
+      "price": "価格",
+      "listing_address": "住所",
+      "booking_status": "予約ステイタス",
+      "payment": "支払い内容",
+      "host_payment": "ホストの受取金",
+      "sub_total": "小計",
+      "listing_base_price_accurate": "宿泊費",
+      "listing_cleaning_fee_accurate": "清掃費",
+      "service_fee": "サービス料",
+      "total": "合計",
+      "service_fee_percent": "ｘ(10～20)％"
+    },
+    "placeholder": {
+      "type_your_message": "メッセージをご入力ください",
+      "input_content_and_press_enter": "内容を入力し、Enterキーを押してください。"
+    },
+    "menu": {
+      "transmission": "ゲストに関する引継ぎ事項",
+      "booking_info": "予約情報",
+      "calendar": "カレンダー",
+      "listing_info_airbnb": "Airbnbリスティング情報",
+      "download": "ガイド",
+      "btn_accept": "承認",
+      "btn_decline": "却下",
+      "house_manual": "ハウスマニュアル",
+      "welcome_guide": "ウェルカムガイド",
+      "primes_manual": "プライムマニュアル"
+    },
+    "modal": {
+      "declined": {
+        "title": "却下",
+        "btn_decline": "却下",
+        "btn_cancel": "キャンセル",
+        "dates_not_available": "部屋にの{{start_date}}～{{end_date}}は有効しません。その日はカレンダーにブッロクされています。",
+        "not_a_good_fix": "私はこのゲストで快適に感じることはありません",
+        "waiting_for_better_reservation": "私リスティングはゲストのニーズ（子供、ベッド等）がてきしていません。",
+        "not_comfortable": "もっと魅力的な予約を待っています。",
+        "description": "説明"
+      }
+    }
+  },
+  "guest_review": {
+    "guest_info": {
+      "name": "ゲスト（代表者）氏名",
+      "reservation_number": "予約コード",
+      "accommodation": "宿泊先（リスティング）名",
+      "checkin": "チェックイン",
+      "checkout": "チェックアウト",
+      "stay_days": "宿泊日数",
+      "notes": "宿泊者情報入力の注意事項 \n①日本の法律で義務付けられている \n②宿泊者全員分の情報が必要 \n③チェックイン時の本人確認の時間短縮 \n④個人情報取得の目的※EU圏内のゲストへはGDPR も考慮した説明 ",
+      "day": "日",
+      "days": "日"
+    },
+    "guest_list": "宿泊者一覧",
+    "edit": "編集",
+    "delete": "削除",
+    "cancel": "キャンセル",
+    "save": "途中保存",
+    "complete": "登録終了",
+    "correction": "修正",
+    "passport_note": "パスポートなどの身分証明証を添付"
+  },
+  "guest_edit": {
+    "document_title": "ゲスト情報のご入力",
+    "title": "ゲスト情報のご入力",
+    "passport_name": "宿泊者氏名",
+    "passport_name_placeholder": "",
+    "passport_name_instruction": "パスポートと同一",
+    "carreer": "職業",
+    "telephone": "電話番号",
+    "telephone_placeholder": "",
+    "year": "年",
+    "birthday": "生年月日",
+    "country": "国籍",
+    "full_address": "現住所",
+    "full_address_placeholder": "現住所（住所は番地までご入力ください。）",
+    "full_address_instruction": "※住所は番地までご記入ください",
+    "address": "現住所",
+    "address_country": "国",
+    "address_country_placeholder": "例）日本",
+    "address_city": "都市名",
+    "address_city_placeholder": "例）東京都新宿区",
+    "address_street": "番地",
+    "address_street_placeholder": "",
+    "previous_address": "前泊地",
+    "previous_address_placeholder": "例）自宅／宿泊先の住所／宿泊施設名",
+    "previous_address_instruction": "前日にいる場所（ご自宅やホテルなどの住所）",
+    "next_address": "後泊地",
+    "next_address_placeholder": "例）自宅／宿泊先の住所／宿泊施設名",
+    "next_address_instruction": "宿泊後に行く場所（ご自宅やホテルなどの住所）",
+    "passport_number": "パスポート番号",
+    "passport_number_placeholder": "",
+    "passport_number_instruction": "日本国籍の方はパスポート以外の身分証明書可能",
+    "passport_notes": "パスポート写真（長期滞在者は在留カード）",
+    "passport_photo": "パスポート写真",
+    "type": "種別",
+    "fullname": "名前",
+    "career_other": "ご職業名",
+    "gender": "性別",
+    "male": "男性",
+    "female": "女性",
+    "companion": "同行者",
+    "representative": "代表者",
+    "government_employee": "公務員",
+    "executive_manager": "会社経営",
+    "full_time_employee": "会社員",
+    "self_employed": "自営業",
+    "student": "学生",
+    "part_time_employee": "パート・アルバイト",
+    "housewife": "専業主婦",
+    "househusband": "専業主夫",
+    "unemployed": "無職",
+    "other": "その他",
+    "year_edit": "年",
+    "month": "月",
+    "day": "日",
+    "guest": "ゲスト: ",
+    "passport_rule": "※日本国籍の方はパスポート以外の身分証明書可能",
+    "click_to_upload": "身分証の写真を撮る",
+    "update_photo_warning1": "カメラを起動すると、現在の画像が削除されます。",
+    "update_photo_warning2": "再度撮影してよろしいですか。"
+  },
+  "guest_detail": {
+    "prefix": "種別",
+    "name": "宿泊者氏名",
+    "passport_name": "宿泊者氏名",
+    "gender": "性別",
+    "birthday": "生年月日",
+    "country": "国籍",
+    "carreer": "職業",
+    "telephone": "電話番号",
+    "address": "住所",
+    "previous_address": "前泊地",
+    "next_address": "後泊地",
+    "passport_number": "パスポート番号"
+  },
+  "guest_list": {
+    "number_person": "予約人数",
+    "checkin_time": "チェックイン時間",
+    "table": {
+      "header": {
+        "list_name": "リスティング名",
+        "guest_list": "宿泊者名簿",
+        "business_report": "事業者報告用",
+        "region": "地域"
+      }
+    },
+    "form_inline": {
+      "listing_name": "リスティング名",
+      "region": "地域",
+      "period": "期間"
+    },
+    "alert": {
+      "download": "期間が必須です。"
+    },
+    "validation": {
+      "invalid_start_end_date": "正しく期間の開始日付～終了日付を入力してください。"
+    },
+    "checkin_completed_notification": "チェックインが終了しました。"
+  },
+  "users": {
+    "access_api": "アクセスApi",
+    "create_app": "アプリを作成",
+    "title": "ユーザー管理",
+    "update_title": "ユーザー情報の追加・編集",
+    "do_you_really_want_to_delete_this": "本当に削除しますか",
+    "user_id": "ユーザーID",
+    "username": "ユーザー名",
+    "firstname": "名",
+    "lastname": "姓",
+    "furigana": "フリガナ",
+    "furigana_firstname": "メイ",
+    "furigana_lastname": "セイ",
+    "password": "パスワード",
+    "email": "メール",
+    "role": "権限",
+    "company": "会社",
+    "add_edit_user": "ユーザー追加・編集",
+    "btn_create_company": "会社を作成",
+    "btn_create_group": "グループを作成",
+    "btn_register": "登録",
+    "select_box": {
+      "roles": {
+        "manager": "管理者",
+        "user": "ユーザー",
+        "cleaning_company": "清掃会社",
+        "sweeper": "清掃員",
+        "communicator": "コミュニケーター"
+      }
+    },
+    "modals": {
+      "add_company": {
+        "title": "会社追加",
+        "input_name": "会社名",
+        "input_code": "会社コード",
+        "input_description": "説明"
+      },
+      "detail_company": {
+        "title": "会社追加・編集",
+        "input_name": "会社名",
+        "input_code": "会社コード",
+        "input_description": "説明"
+      },
+      "validate_name": "名前",
+      "validate_description": "説明",
+      "current_password": "本人確認のパスワード"
+    },
+    "update_password": {
+      "title": "パスワード更新",
+      "form": {
+        "lbl_password": "パスワード",
+        "errors": {
+          "password_not_valid": "パスワードは6文字以上で、半角アルファベット大文字、小文字と半角数字を含む必要があります。"
+        },
+        "alert": {
+          "updated": "パスワードを更新しました。"
+        }
+      }
+    }
+  },
+  "key_station": {
+    "key_managerment": {
+      "title": "鍵管理",
+      "listing_name": "リスティング名",
+      "region": "地域",
+      "key_id": "鍵ID",
+      "manual_password": "手動パスワード",
+      "KeyStation_password": "KeyStationパスワード",
+      "spare_key": "スペアキー",
+      "master_key": "マスターキー",
+      "location": "設置場所",
+      "registration": "登録"
+    },
+    "key_list": {
+      "title": "チェックイン一覧",
+      "guest_name": "ゲスト名",
+      "check_in_date": "チェックイン日",
+      "check_out_date": "チェックアウト日",
+      "property_id": "物件ID",
+      "key_password": "鍵パスワード",
+      "key_status": "鍵ステイタス",
+      "key_location": "鍵場所"
+    }
+  },
+  "listing_creation_complete": {
+    "title": "リスティング作成",
+    "content_complete": "Airbnb上の登録は完了しました。",
+    "content_continue": "続きまして、PMS上の情報を登録してください"
+  },
+  "host": {
+    "title": "リスティング作成",
+    "select_lbl": "ホスト選択",
+    "select_value_1": "ホストアカウント1",
+    "select_value_2": "ホストアカウント2",
+    "select_value_3": "ホストアカウント3",
+    "btn_next": "次へ",
+    "btn_register": "登録する"
+  },
+  "guest_checkout": {
+    "document_title": "チェックアウト",
+    "text_1": "鍵の返却をお願い致します。",
+    "text_2": "鍵の返却方法に関しては手順書をご覧ください。",
+    "btn_checkout": "完了",
+    "btn_back": "戻る",
+    "btn_next": "次へ",
+    "step1": {
+      "title": "予約コード",
+      "textbox": "予約コード"
+    },
+    "step2": {
+      "title": "言語を選択してください。"
+    },
+    "validation": {
+      "message": "予約コードを入力してください"
+    },
+    "btn_return_room_key": "鍵の返却方",
+    "return_room_key_title": "鍵の返却方",
+    "return_room_key_description": "鍵の返却方法に関しては手順書を御覧ください。",
+    "return_room_key_text": "チェックアウトを終了しました。"
+  },
+  "guest_checkin": {
+    "document_title": "チェックイン",
+    "btn_end": "終了",
+    "btn_back": "戻る",
+    "btn_next": "次へ",
+    "btn_return": "戻る",
+    "btn_call": "ホストと通話",
+    "btn_edit": "登録・編集",
+    "btn_save": "保存",
+    "btn_cancel": "キャンセル",
+    "btn_checkin": "チェックイン",
+    "btn_checkout": "チェックアウト",
+    "btn_longterm": "長期滞在",
+    "btn_retry": "リトライ",
+    "btn_recall": "リコール",
+    "btn_endcall": "通話終了",
+    "btn_back_guest": "前のゲストへ",
+    "btn_next_guest": "次のゲストへ",
+    "step1": {
+      "title": "言語を選択してください。"
+    },
+    "step3": {
+      "title": "注意事項",
+      "text": "/assets/term/japanese.txt",
+      "btn_agree": "同意"
+    },
+    "step4": {
+      "text": "予約コードを入力してください"
+    },
+    "step5": {
+      "full_name": "ゲスト（代表者）氏名：山本吉田",
+      "reservation_number": "予約コード：RSV000003",
+      "accommodation": "宿泊先：横浜",
+      "checkin": "チェックイン日",
+      "checkout": "チェックアウト日",
+      "checkin_completed": "チェックインが終了しました。",
+      "keycode": "キーボックス暗証番号",
+      "slotnum": "スロット番号"
+    },
+    "step6": {
+      "title": "いまチェックインする人を選んでください",
+      "title_left": "チェックイン",
+      "title_right": "後ほどチェックイン"
+    },
+    "step7": {
+      "text": "さんの顔の位置を合わせてください",
+      "text_footer": "帽子、サングラスなどは外してください"
+    },
+    "step8": {
+      "text1": "本人確認が完了しました。 \n 暗証番号を控えてください。",
+      "text2": "キーボックス暗証番号",
+      "text3": "12345678"
+    },
+    "steps": {
+      "step1": "宿泊者情報確認",
+      "step2": "本人確認",
+      "step3": "パスワード入手",
+      "step4": "鍵を取り出す"
+    },
+    "call": {
+      "select": "今いるを選び、顔認証するためにホストと通話してください",
+      "license": "全員の顔認証が法律で定められています",
+      "select_all": "全員いる時にこちらをチェック",
+      "connecting": "ただいまホストにかけています。。。",
+      "connecting_msg": "いま顔認証できないゲストは、後からホストに通話して顔認証してください",
+      "guest_face": "さんの顔の位置を合わせてください",
+      "take_hat": "帽子、サングラスなどは外してください",
+      "face_verification_complete": "本人確認が完了しました",
+      "get_keycode_notification": "暗証番号を控えてください",
+      "reason": "{reason}のため本人確認ができません",
+      "retry_request": "再トライしてください。再トライは{times}回まで可能です。",
+      "sorry_msg": "{reason}のため、\n確認ができませんでしたので、鍵をお渡しすることができません。\nもう一度最初からやり直していただくか、Airbnbのメッセージにてお問い合わせください。\nご不便をおかけし申し訳ございません。",
+      "sorry_msg_2": "【中国語】\n由于[{reason}]，入住手续无法完成，也无法发行房间钥匙。\n请您再尝试操作一次，或通过Airbnb给我们发信息联络。\n给您带来不便，非常抱歉。",
+      "sorry_msg_3": "【韓国語】\n{reason}로 확인이 불가능하여 열쇠를 드릴 수 없습니다.\n재차 시도하여도 어려울 경우, Airbnb의 메시지로 문의 부탁 드립니다.\n불편을 끼쳐 드려 죄송합니다.",
+      "open_keybox": "暗証番号をキーポックスに入力し、鍵を取り出してください。"
+    },
+    "reservation": {
+      "guest_name": "ゲスト（代表者）氏名",
+      "booking_code": "予約コード",
+      "listing_name": "リスティング名",
+      "checkin_date": "チェックイン日",
+      "checkout_date": "チェックアウト日"
+    },
+    "timeout_notification": {
+      "txt_title": "注意",
+      "txt_notice": "しばらく操作がありませんでした。{{expiredTime}}秒後にトップ画面に戻ります。\n操作を継続する場合は、画面にタッチしてください。"
+    }
+  },
+  "listing_information": {
+    "common": {
+      "title": "基本情報",
+      "listing_name": "リスティング名",
+      "listing_nickname": "リスティングニックネーム名",
+      "airbnb_listing_name": "リスティングニックネーム名",
+      "room_type": "お部屋のタイプ",
+      "person_capacity": "最大人数",
+      "property_type": "カテゴリー",
+      "building_type": "建物タイプ",
+      "room_type1": "部屋タイプ",
+      "bedrooms": "ゲスト用のベッドルーム数",
+      "bathrooms": "ゲスト用のバスルーム数",
+      "facility": "施設",
+      "facility_name": "施設名",
+      "total_inventory_count": "在庫数量",
+      "listing_price": "リスティングデフォルト価格",
+      "listing_currency": "リスティングデフォルト通貨"
+    },
+    "booking_seting": {
+      "everyone": "すべての要件を満たすゲストは、今すぐ予約できます。そうでないゲストは、予約リクエストを送信する必要があります。",
+      "government_id": "政府発行の身分証明書",
+      "experienced": "他のホストからの推薦",
+      "off": "全ゲストが予約リクエストを送信",
+      "instant_book_welcome_message": "予約前に表示されるウェルカムメッセージ",
+      "allows_children_as_host": "子ども(2-12歳)OK",
+      "allows_infants_as_host": "乳幼児(2歳未満)OK",
+      "allows_pets_as_host": "ペットOK",
+      "allows_smoking_as_host": "喫煙OK",
+      "allows_events_as_host": "パーティー&イベントOK",
+      "children_not_allowed_details": "追加ルール",
+      "requires_stairs": "階段を登らないとたどり着けません",
+      "potential_noise": "騒音の可能性あり",
+      "has_pets": "ペットがいます",
+      "limited_parking": "敷地内に駐車場なし",
+      "shared_spaces": "共用スペースあり",
+      "limited_amenities": "一部アメニティは最低限のものです (例: ネットが遅い)",
+      "surveillance": "防犯カメラ/集音マイク設置中",
+      "weapons": "物件内に銃刀類あり",
+      "animals": "物件内に危険な生き物がいます",
+      "home_description": "お家についてゲストが事前に知っておくべきこと",
+      "requires_stairs_text": "階段（段数や踊り場の有無）について記入してください ",
+      "potential_noise_text": "騒音や発生しやすい時間帯について記入してください ",
+      "has_pets_text": "ペットの詳細を記入してください ",
+      "limited_parking_text": "リスティング近隣の駐車場事情を記入してください ",
+      "shared_spaces_text": "共用スペースについて記入してください ",
+      "limited_amenities_text": "アメニティ・設備やサービスの問題点（Wi-Fiが遅い、使えるお湯の量が限られているなど）について詳細を記入する ",
+      "surveillance_text": "動画、音声、写真の記録/転送用機器がある方はここに書いておきましょう。各機器の設置場所、宿泊中にONかOFFかも明記します。",
+      "weapons_text": "銃砲刀剣類(銃、エアガン、スタンガンなど)がある方はここに書いておきましょう。保管場所、保管方法も明記します",
+      "animals_text": "ゲストや他の動物の健康や安全に害をもたらすおそれのあるペット、野生動物がいる方はここに書いておきましょ",
+      "placeholder_text": "説明を追加する",
+      "check_in_time_start": "チェックイン開始時刻",
+      "check_in_time_end": "チェックイン締切時刻",
+      "check_out_time": "チェックアウト時刻",
+      "cancellation_policy_category": "キャンセルポリシー",
+      "guest_requirements": "ゲスト要件",
+      "house_rules": "ハウスルール",
+      "policies": "ポリシー",
+      "how_guests_can_book":"予約受付方法",
+      "cancellation_policy_category_flexible": "柔軟",
+      "cancellation_policy_category_moderate": "普通",
+      "cancellation_policy_category_strict": "厳格"
+    },
+    "bedroom": {
+      "title": "ベッド情報",
+      "guest_only": "ゲスト専用",
+      "number_bedrooms": "共有スペース",
+      "bed_num": "ゲスト用のベッド数",
+      "bed_for_share": "共有スペースのベッド",
+      "bed_type": "ベッドタイプ"
+    },
+    "street": {
+      "title": "住所",
+      "country": "国/地域",
+      "post_code": "郵便番号",
+      "prefectures": "都道府県",
+      "municipality": "市区町村",
+      "street_address": "所番地",
+      "building_name_room_number": "建物名、部屋番号",
+      "confirmed_by_map": "地図で確認",
+      "longtitude": "経度",
+      "lattitude": "緯度"
+    },
+    "amenity": {
+      "header": "アメニティ",
+      "option": {
+        "option_1": "必需品\nタオル、シーツ、石鹸、トイレットペーパー、枕",
+        "option_2": "Wi-Fi",
+        "option_3": "クローゼット／タンス",
+        "option_4": "テレビ",
+        "option_5": "暖房",
+        "option_6": "エアコン",
+        "option_7": "朝食、コーヒー、お茶",
+        "option_8": "机、ワークスペース",
+        "option_9": "暖炉・薪ストーブ・囲炉裏",
+        "option_10": "アイロン",
+        "option_11": "ヘアドライヤー",
+        "option_12": "専用の玄関"
+      }
+    },
+    "safety_measure": {
+      "header": "安全対策のアメニティ",
+      "option": {
+        "option_1": "煙感知器\n地域の法令をお確かめください。煙感知器は各部屋に設置を義務づけている地域もあります。",
+        "option_2": "酸化炭素検知器\n地域の法令をお確かめください。一酸化炭素は各部屋に設置を義務づけている地域もあります。",
+        "option_3": "応急手当セット",
+        "option_4": "消火器",
+        "option_5": "寝室は鍵付きドア\n個室は鍵付きなので安全とプライバシーを確保できます。"
+      }
+    },
+    "guest_available_space": {
+      "header": "ゲスト利用可能スペース",
+      "option": {
+        "option_1": "プール",
+        "option_2": "キッチン",
+        "option_3": "洗濯機",
+        "option_4": "洗濯乾燥機",
+        "option_5": "駐車場",
+        "option_6": "エレベーター",
+        "option_7": "ジャグジー＆高級お風呂",
+        "option_8": "ジム"
+      }
+    },
+    "photo_upload": {
+      "header": "写真アップロード",
+      "sync_airbnb_photo": "画像の同期",
+      "caption": "キャプション",
+      "set_cover": "カバー写真を選択"
+    },
+    "note": {
+      "header": "説明文",
+      "name": "リスティングのタイトル",
+      "notes": "その他の特記事項",
+      "space": "スペース",
+      "access": "入室方法",
+      "summary": "リスティングの説明文",
+      "transit": "交通アクセス",
+      "author_type": "著者の種類",
+      "description": "説明",
+      "house_rules": "ハウスルール",
+      "interaction": "ゲストとの交流",
+      "machine_translated": "機械翻訳済み",
+      "neighborhood_overview": "エリアの概要",
+      "locales": "ロカール"
+    },
+    "reservation_requirements": {
+      "header": "予約の要件",
+      "sub_header": "Airbnbが全ゲストに確認を求めるもの：",
+      "option": {
+        "option_1": "メールアドレス",
+        "option_2": "認証済みの電話番号",
+        "option_3": "支払い情報"
+      }
+    },
+    "reservation_requirements_more": {
+      "header": "予約の要件をさらに追加",
+      "option": {
+        "option_1": "政府発行の身分証明書をAirbnbに提示すること",
+        "option_2": "ホストからの推薦獲得済みで、ネガティブなレビューがない",
+        "option_3": "リクエスト"
+      }
+    },
+    "reservation_requirements_confirm": {
+      "header": "あなたが全ゲストに予約前に確認を求めるもの：",
+      "option": {
+        "option_1": "あなたのハウスルールに同意すること",
+        "option_2": "ホストに旅行内容をメッセージで伝える",
+        "option_3": "宿泊人数をホストに伝える",
+        "option_4": "チェックイン時刻の申告（到着まで2日未満の予約の場合）"
+      }
+    },
+    "use_ota": {
+      "header": "利用OTA",
+      "option": {
+        "option_1": "あなたのハウスルールに同意すること",
+        "option_2": "ホストに旅行内容をメッセージで伝える",
+        "option_3": "宿泊人数をホストに伝える",
+        "option_4": "チェックイン時刻の申告（到着まで2日未満の予約の場合）"
+      },
+      "button_add": "追加"
+    },
+    "legal_requirement": {
+      "header": "法的要件",
+      "sub_header": "運用方法",
+      "option": {
+        "option_1": "住宿",
+        "option_2": "特区",
+        "option_3": "旅館業",
+        "option_4": "マンスリー"
+      },
+      "yearly_max_number_of_days": "年間上限日数",
+      "label_days": "日"
+    },
+    "regional_ordinance": {
+      "header": "地域の条例",
+      "prefectures": "リスティングの都道府県",
+      "ordinance": "条例",
+      "button_add": "追加"
+    },
+    "bed_for_share": {
+      "small_double_bed": "セミダブル",
+      "double_bed": "ダブル",
+      "queen_bed": "クイーン",
+      "king_bed": "キング",
+      "bunk_bed": "2段ベッド",
+      "air_mattress": "エアーマットレス",
+      "crib": "ベビーベッド",
+      "toddler_bed": "子ども用ベッド",
+      "hammock": "ハンモック",
+      "water_bed": "ウォーターベッド"
+    },
+    "common_spaces": {
+      "sofa_bed": "ソファーベッド",
+      "couch": "カウチ",
+      "floor_mattress": "敷布団",
+      "single_bed": "シングル",
+      "small_double_bed": "セミダブル",
+      "double_bed": "ダブル",
+      "queen_bed": "クイーン",
+      "king_bed": "キング",
+      "bunk_bed": "2段ベッド",
+      "air_mattress": "エアーマットレス",
+      "crib": "ベビーベッド",
+      "toddler_bed": "子ども用ベッド",
+      "hammock": "ハンモック",
+      "water_bed": "ウォーターベッド"
+    },
+    "pms_information": {
+      "ota": "利用OTA",
+      "others": "Others",
+      "legal_requirement": "法的要件",
+      "legal_requirement_content": {
+        "operation_method": "運用方法",
+        "accommodation": "住宿",
+        "special_zone": "特区",
+        "ryokan_business": "旅館業",
+        "monthly": "マンスリー",
+        "annual_limit": "年間上限日数",
+        "label_days": "日"
+      },
+      "regional_ordinance": "地域の条例",
+      "listing_of_prefectures": "リスティングの都道府県",
+      "regulations": "条例"
+    },
+    "room_type_data": {
+      "all_round_charters": "まるまる貸切",
+      "private_room": "個室",
+      "shared_room": "シェアルーム"
+    },
+    "property_type_data": {
+      "mansion_Apartment": "マンション・アパート",
+      "housing": "住宅",
+      "sub_unit": "サブユニット",
+      "unit_room": "ユニークなお部屋",
+      "bb": "B&B",
+      "designers_hotel": "デザイナーズホテル"
+    },
+    "building_type_data": {
+      "mansion_apartment": "マンション&アパート",
+      "condominium": "コンドミニアム",
+      "casa_parthikaru": "カサ・パルティクラル",
+      "loft": "ロフト",
+      "monthly_service_apartment": "マンスリー・サービスアパートメント"
+    },
+    "room_type1_data": {
+      "house_entire": "住宅全体",
+      "private_room": "個室",
+      "shared_room": "シェアルーム"
+    },
+    "person_capacity_data": {
+      "guest": "名"
+    },
+    "property_type_category": {
+      "apartments": {
+        "apartment": "マンション&アパート",
+        "condominium": "コンドミニアム",
+        "casa_particular": "カサ・パルティクラル（キューバ）",
+        "loft": "ロフト",
+        "serviced_apartment": "マンスリー・サービスアパートメント"
+      },
+      "houses": {
+        "house": "一軒家",
+        "bungalow": "バンガロー",
+        "cabin": "ログハウス",
+        "casa_particular": "カサ・パルティクラル（キューバ）",
+        "chalet": "シャレー",
+        "cottage": "コテージ",
+        "cycladic_house": "キクラデス様式の家（ギリシャ）",
+        "dammuso": "ダムーゾ（イタリア）",
+        "dome_house": "ドームハウス",
+        "earthhouse": "土の家",
+        "farm_stay": "農家民泊",
+        "houseboat": "ハウスボート",
+        "hut": "古民家",
+        "lighthouse": "灯台",
+        "pension": "ペンション(韓国)",
+        "shepherds_hut": "羊飼いの小屋(英、仏)",
+        "tiny_house": "タイニーハウス",
+        "townhouse": "タウンハウス(町家・長屋)",
+        "trullo": "トルッロ（イタリア）",
+        "villa": "ヴィラ"
+      },
+      "secondary_units": {
+        "guesthouse": "離れ",
+        "guest_suite": "ゲストスイート",
+        "farm_stay": "農家民泊"
+      },
+      "unique_homes": {
+        "barn": "納屋",
+        "boat": "ボート&船舶",
+        "bus": "バス",
+        "rv": "キャンピングカー・RV",
+        "campsite": "キャンプ場",
+        "castle": "城",
+        "cave": "洞窟",
+        "dome_house": "ドームハウス",
+        "earthhouse": "土の家",
+        "farm_stay": "農家民泊",
+        "houseboat": "ハウスボート",
+        "hut": "古民家",
+        "igloo": "かまくら",
+        "island": "島",
+        "lighthouse": "灯台",
+        "pension": "ペンション(韓国)",
+        "plane": "飛行機",
+        "shepherds_hut": "羊飼いの小屋(英、仏)",
+        "tent": "テント",
+        "tiny_house": "タイニーハウス",
+        "tipi": "ティピー",
+        "train": "電車",
+        "treehouse": "ツリーハウス",
+        "windmill": "風車小屋",
+        "yurt": "ユルト(パオ、ゲル)"
+      },
+      "bnb": {
+        "bnb": "B&B",
+        "casa_particular": "カサ・パルティクラル（キューバ）",
+        "farm_stay": "農家民泊",
+        "minsu": "民宿（台湾）",
+        "lodge": "ロッジ",
+        "ryokan": "旅館"
+      },
+      "boutique_hotels_and_more": {
+        "boutique_hotel": "デザイナーズホテル",
+        "aparthotel": "アパートホテル",
+        "heritage_hotel": "ヘリテージホテル（インド）",
+        "hostel": "ホステル（ゲストハウス[日本]/ドミトリー）",
+        "hotel": "ホテル",
+        "lodge": "ロッジ",
+        "resort": "リゾートホテル・別荘",
+        "serviced_apartment": "マンスリー・サービスアパートメント"
+      }
+    },
+    "rooms": {
+      "room": "部屋番号{{room}}",
+      "for_guest": "ゲスト専用",
+      "common_spaces": "共有スペース",
+      "room_number": "部屋量",
+      "amenities": "施設",
+      "amenity_quantity": "設備量",
+      "amenity_type": "設備タイプ",
+      "beds": "ベッド",
+      "bed_quantity": "ベッド量",
+      "bed_type": "ベッドタイプ",
+      "btn_add_new_room": "新部屋の追加"
+    },
+    "photo_drag_and_drop": "ここで写真をドラッグ＆ドロップするか、クリックして写真を選択します。",
+    "photo_drop": "ここで写真をドラックします。。。",
+    "sync_on_airbnb": {
+      "btn_save_and_sync_airbnb": "保存して、Airbnbへの同期",
+      "title": "Airbnbへの同期",
+      "select_host": "ホスト選択",
+      "message": "ホストアカウントを選択してください。",
+      "btn_cancel": "キャンセル",
+      "btn_sync": "Airbnbへの同期",
+      "btn_sync_photo": "Sync Airbnb Photo"
+    },
+    "locales": {
+      "en": "English",
+      "ja": "日本語"
+    },
+    "price": {
+      "title": "リスティング",
+      "nightly_price": "1泊料金",
+      "base_price": "基本料金",
+      "length_of_stay_discounts": "連泊割引",
+      "weekly_discount": "週割",
+      "monthly_discount": "月額割引",
+      "custom_discount": "カスタム割引を設定",
+      "standard_fees_and_charges": "諸費用＆追加チャージ",
+      "cleaning_fee": "清掃料金",
+      "security_deposit": "保証金",
+      "extra_guests": "追加人数の料金",
+      "guest_after": "下記人数を超えると1名様増毎に加算",
+      "weekend_pricing": "週末料金",
+      "other_standard_fees": "その他諸費用",
+      "PASS_THROUGH_RESORT_FEE": "リゾート料金",
+      "PASS_THROUGH_MANAGEMENT_FEE": "管理手数料",
+      "PASS_THROUGH_COMMUNITY_FEE": "共益費",
+      "PASS_THROUGH_LINEN_FEE": "シーツ交換料",
+      "per_reservation": "予約あたり",
+      "currency": "通貨",
+      "add_another_fee": "費用名目を追加",
+      "flat": "量",
+      "amount_type": "価格タイプ",
+      "amount": "価格",
+      "tax": "税金を追加する",
+      "tax_type": "税目",
+      "type_of_charge": "名目",
+      "tax_amount": "金額",
+      "business_tax_id": "納税者識別番号",
+      "tot_registration_id": "宿泊税登録番号",
+      "attestation": "税金追加の条件",
+      "long_term_stay_exemption": "長期滞在型施設が登録免除となる地域ですか？",
+      "long_term_stay_exemption_input": "長期滞在の免税が適用される最低泊数",
+      "tax_confirm": "こちらの税額で間違いないことを確認し、Airbnbで回収後、個人の責任において納税することを保証します。 税務情報と取引情報（リスティング所在地、税額、納税者番号など）をAirbnbが所轄税務署に開示することを許可します。",
+      "pass_through_hotel_tax": "ホテル税",
+      "pass_through_lodging_tax": "宿泊税",
+      "pass_through_room_tax": "客室税",
+      "pass_through_tourist_tax": "観光税",
+      "pass_through_transient_occupancy_tax": "一時宿泊税",
+      "pass_through_sales_tax": "売上税",
+      "pass_through_vat_gst": "消費税・付加価値税（VAT）／物品サービス税（GST）",
+      "pass_through_tourism_assessment_fee": "観光アセスメント料金／使用料",
+      "percent_per_reservation": "予約あたりの%",
+      "flat_per_guest": "1人あたりの料金",
+      "flat_per_guest_per_night": "1人1泊あたりの料金",
+      "flat_per_night": "1泊あたりの手数料"
+    },
+    "availability_rule": {
+      "title": "予約可能状況",
+      "hours": "時間",
+      "days": "{{day}} 日数",
+      "day": "{{day}} 日",
+      "booking_lead_time": "予約締切日",
+      "allow_request_to_book": "「今すぐ予約」対応のホスト：予約リクエストは締切なしで常時受付ける。",
+      "max_days_notice": "先々の予約",
+      "max_days_notice_days": {
+        "0": "すべてブロックの基本設定で始める",
+        "30": "1ヶ月先まで受け付ける",
+        "60": "2ヶ月先まで受け付ける",
+        "90": "3ヶ月先まで受け付ける",
+        "120": "4ヶ月先まで受け付ける",
+        "150": "5ヶ月先まで受け付ける",
+        "180": "6ヶ月先まで受け付ける",
+        "210": "7ヶ月先まで受け付ける",
+        "240": "8ヶ月先まで受け付ける",
+        "270": "9ヶ月先まで受け付ける",
+        "300": "10ヶ月先まで受け付ける",
+        "330": "11ヶ月先まで受け付ける",
+        "365": "12ヶ月先まで受け付ける",
+        "-1": "期限は特に設けない"
+      },
+      "max_days_notice_opt1": "ゲストの予約可能な期間が本日から限らない",
+      "max_days_notice_opt2": "ゲストの予約可能な期間がない",
+      "max_days_notice_opt3": "ゲストの予約可能なのは本日からこの期間以内",
+      "turnover_days": "準備期間",
+      "turnover_days_day": {
+        "0": "なし",
+        "1": "宿泊の前後1泊ずつブロック",
+        "2": "宿泊の前後2泊ずつブロック"
+      },
+      "seasonal_min_nights": "季節や期間限定のカスタムルール",
+      "day_of_week": "曜日",
+      "day_of_week_check_in": "ゲストがチェックインできる曜日を指定する",
+      "day_of_week_check_out": "ゲストがチェックアウトできる曜日を指定する",
+      "day_of_week_minimun_nights": "曜日ごとの最低宿泊日数",
+      "default_min_nights": "最低宿泊日数",
+      "default_max_nights": "最大宿泊日数",
+      "start_date": "開始日",
+      "end_date": "終了日",
+      "min_nights": "最低宿泊日数",
+      "set_seasonal_min_nights": "要件を追加",
+      "sun": "日",
+      "mon": "月",
+      "tue": "火",
+      "wed": "水",
+      "thu": "木",
+      "fri": "金",
+      "sat": "土",
+      "reservation_preferences": "予約受付設定",
+      "trip_length": "宿泊期間",
+      "booking_lead_time_hours": {
+        "0": "当日（締切時間も指定できます）",
+        "24": "1日前までに予約",
+        "48": "2日前までに予約",
+        "72": "3日前までに予約",
+        "168": "7日前までに予約"
+      },
+      "check_in_and_checkout": "チェックイン&チェックアウト",
+      "nights": "泊"
+    }
+  },
+  "sidebar": {
+    "home": "ホーム",
+    "listing": "部屋管理",
+    "listing_detail": "部屋一覧",
+    "create_listing": "リスティング作成",
+    "inbox": "受信トレイ",
+    "reservation": "予約一覧",
+    "checkin": "チェックイン",
+    "longterm": "長期滞在確認",
+    "guest_checkin": "チェックイン（ゲスト側）",
+    "guest_checkout": "チェックアウト（ゲスト側）",
+    "setting_broadcast_message": "一斉送信 設定",
+    "user_management": "ユーザー管理",
+    "users": "ユーザー一覧",
+    "checkin_management": "チェックイン管理",
+    "key_management": "鍵管理",
+    "key_list": "チェックイン一覧",
+    "legal": "法令関連報告",
+    "guest_policy": "宿泊者情報",
+    "guest_list": "宿泊者名簿",
+    "company": "会社管理",
+    "group": "グループ管理",
+    "cleaning_management": "清掃管理",
+    "fc": "清掃一覧",
+    "cleaning_company": "清掃一覧",
+    "payoff_management": "精算管理",
+    "service_management": "管理業務手数料設定",
+    "payoff_overview_fc": "支出管理「フランチャイズ」",
+    "payoff_overview_service_company": "支出管理「サービサー」",
+    "fc_comtors_setting": "FC－Comtorの設定",
+    "facilities_management": "施設管理",
+    "reservation_management": "予約管理",
+    "heyawari": "部屋変更",
+    "trans_path": {
+      "checkin": "/checkin/72?lng=ja",
+      "longterm": "/long-term/72?lng=ja",
+      "guest_checkin": "/guest-checkin?lng=ja",
+      "guest_checkout": "/guest-checkout?lng=ja",
+      "guest_policy": "/reservation/a6ad543fb9a4b52d5af490afcd36ebdcf4da0872684f71f301aa59d75fda6e28b27e0a2c9f971b677b35c66b33c598ad579534502fdf8ee5b76f28886c4e29a4/guest-policy?lng=ja",
+      "guest_automsg": "/guest-automsg?lng=ja"
+    },
+    "menu": {
+      "help": "ヘルプ",
+      "log_out": "ログアウト",
+      "switch": {
+        "on": "オン",
+        "off": "オフ",
+        "loading": "処理中"
+      }
+    },
+    "room_permissions": "画面への権限設定",
+    "privacy": "個人情報の取扱いについて",
+    "currencies_exchange": "外貨両替",
+    "app_configs": "アプリの情報"
+  },
+  "permission": {
+    "filter_form": {
+      "group": "グループ",
+      "role": "権限",
+      "search": "検索",
+      "search_placeholder": "キーワード"
+    },
+    "table": {
+      "header": {
+        "id": "#ID",
+        "screen_name": "画面名",
+        "can_view": "閲覧可否",
+        "can_edit": "編集可否",
+        "view": "閲覧",
+        "edit": "編集"
+      }
+    }
+  },
+  "button_lang": {
+    "en": "English",
+    "ja": "日本語",
+    "kr": "한국어",
+    "ch_chs": "简体中文",
+    "ch_cht": "繁體中文",
+    "ko": "한국어",
+    "zh_chs": "简体中文",
+    "zh_cht": "繁體中文"
+  },
+  "cleaning": {
+    "title_information": "情報",
+    "title_entrance_leave_guide": "宿泊の入出ガイド",
+    "title_room_size": "部屋サイズ",
+    "title_no_of_bed": "ベッドの数",
+    "title_in": "イン",
+    "title_out": "アウト",
+    "title_estimated_time": "予定時刻",
+    "title_memo": "メモ",
+    "placeholder_memo": "メモ",
+    "title_cleaning_checklist": "清掃チェックリスト",
+    "title_image_upload": "イメージをアップロード",
+    "btn_submit": "サブミット",
+    "text_case": "件数： {{case}}件",
+    "checklist_data": {
+    },
+    "alert": {
+      "updated": "更新しました。"
+    },
+    "company": {
+      "title": "清掃会社ー西新",
+      "period": "期間",
+      "cleaning_details": "清掃の詳細",
+      "listing_name": "リスティング名",
+      "address": "住所",
+      "checkout": "チェックアウト日",
+      "checkin": "チェックイン日",
+      "additional_charge": "追加料金",
+      "note": "備考",
+      "booking_id": "予約コード",
+      "guest_name": "ゲスト名",
+      "cleaner": "清掃業者",
+      "cleaner_status": "清掃状況",
+      "trash_status": "ゴミ箱のステイタス",
+      "in_review": "検討中",
+      "collected": "収集済",
+      "uncollected": "未収集",
+      "approve": "承認",
+      "decline": "否認",
+      "booking": "次のチェックイン日時",
+      "cleaning_schedule": "清掃スケジュール",
+      "tabs": {
+        "list": "一覧",
+        "calendar": "カレンダー"
+      },
+      "more_detail": "より詳しく"
+    },
+    "management": {
+      "title": "清掃一覧",
+      "report": "清掃レポート",
+      "tabs": {
+        "list": "一覧",
+        "calendar": "カレンダー"
+      }
+    },
+    "search": {
+      "period": "期間",
+      "status": "ステイタス",
+      "cleaning_company": "清掃会社",
+      "listing": "リスティング"
+    }
+  },
+  "management_service": {
+    "tab_listing_title": "リスティング別",
+    "tab_host_title": "ホスト別",
+    "payment_overview": "支払いの概要",
+    "title": "管理業務手数料設定",
+    "header": "管理サービス手数料を含める",
+    "search": {
+      "listing_name": "リスティング名",
+      "listing_id": "リスティングID",
+      "host_account": "ホストアカウント",
+      "btn_search": "検索",
+      "airbnb_name": "Airbnbタイトル"
+    },
+    "option": {
+      "checkbox_ota": "OTA-手数料",
+      "checkbox_accommodation_fee": "宿泊料金",
+      "checkbox_cleaning_fee": "清潔料金"
+    },
+    "description": {
+      "first": "管理サービス手数料が掛かります",
+      "middle": "支出の合計（％）",
+      "last": "円（1 リスティング当たり）"
+    },
+    "table": {
+      "amount_per_month": "支出（月割）",
+      "amount_per_booking": "支出（1つの予約当たり）",
+      "percent_per_booking": "％（1つの予約当たり）",
+      "checkbox_message": "メッセージ",
+      "checkbox_cleaning_expenses": "清掃費",
+      "select_on_the_spot_support": "駆けつけ",
+      "select_system_cost": "システム費",
+      "select_orthers": "その他",
+      "unit": "円"
+    },
+    "validation": {
+      "min": "管理サービス手数料がには、0以上の数字を指定してください。",
+      "between": "管理サービス手数料がには、0%から、100%までの数字を指定してください。"
+    }
+  },
+  "company": {
+    "title": "会社管理",
+    "table": {
+      "header": {
+        "company": "会社",
+        "description": "説明",
+        "logo": "会社ロゴ",
+        "group": "グループ",
+        "partner": "パートナー"
+      }
+    },
+    "group": {
+      "title": "グループ追加・編集",
+      "group_name": "グループ名",
+      "description": "説明"
+    },
+    "modals": {
+      "validate": {
+        "partner_type": "パートナー"
+      }
+    }
+  },
+  "service_company": {
+    "title": "「サービサー」支出管理",
+    "search": {
+      "host": "ホスト",
+      "ota": "OTA",
+      "period": "期間",
+      "listing": "リスティング名",
+      "fc": "FC",
+      "area": "地域",
+      "btn_search": "検索"
+    },
+    "table": {
+      "header": {
+        "ota": "OTA",
+        "listing_name": "リスティング名",
+        "booking_id": "予約コード",
+        "guest_name": "ゲスト名",
+        "currency": "通貨",
+        "check_in": "チェックイン日",
+        "check_out": "チェックアウト日",
+        "ota_handling_fees": "OTA手数料",
+        "accommodation_fees": "宿泊料金",
+        "cleaning_fees": "清潔料金",
+        "total": "合計",
+        "note": "備考",
+        "net": "合計金額",
+        "invoice": "送り状"
+      }
+    },
+    "btn_export": "エクスポート"
+  },
+  "airtripstay": {
+    "title": "支出管理　(Airtripstay)",
+    "btn_mshs": "管理サービス手数料を設定",
+    "search": {
+      "host": "ホスト",
+      "ota": "OTA",
+      "period": "期間",
+      "listing": "リスティング名",
+      "fc": "FC",
+      "area": "地域",
+      "btn_search": "検索"
+    },
+    "table": {
+      "header": {
+        "ota": "OTA",
+        "listing_name": "リスティング名",
+        "booking_id": "予約コード",
+        "guest_name": "ゲスト名",
+        "currency": "通貨",
+        "check_in": "チェックイン日",
+        "check_out": "チェックアウト日",
+        "ota_handling_fees": "OTA手数料",
+        "management_service_handling_fees": "管理サービス手数料",
+        "accommodation_fees": "宿泊料金",
+        "cleaning_fees": "清潔料金",
+        "total": "合計",
+        "note": "備考",
+        "total_income": "総収入",
+        "total_expense": "総経費",
+        "net": "ネット",
+        "invoice": "送り状",
+        "total_fee": " 合計金額"
+      }
+    },
+    "btn_export": "エクスポート",
+    "btn_exchange": "外貨両替",
+    "btn_back": "元に戻す",
+    "currency_alert": {
+      "title": "両替情報",
+      "btn_cancel": "キャンセル",
+      "btn_ok": "OK",
+      "mess_question": "両替情報の入力画面に遷移しますか。",
+      "not_exist_alert": "{{currencies}}の両替情報が入力されていないので、支出計算が不可能になっています。",
+      "expired_alert": "{{currencies}}の両替情報の有効期限が切ったので、支出計算が不可能になっています。",
+      "expired_alert_2": "{{currencies}}の両替情報の有効期限が切ったので、支出計算が不可能になっています。"
+    }
+  },
+  "groups": {
+    "title": "グループ管理",
+    "btn_create": "グループを作成",
+    "table": {
+      "header": {
+        "group_name": "グループ名",
+        "description": "説明"
+      }
+    },
+    "modal": {
+      "title": "グループ追加・編集",
+      "group_label": "グループ名",
+      "group_name": "グループコード",
+      "description": "説明"
+    }
+  },
+  "validation": {
+    "required": "{{attribute}}が必須です。",
+    "min": "{{attribute}}は{{min}}文字以上で入力してください。",
+    "max": "{{attribute}}は{{max}}文字以下で入力してください。",
+    "matches": "{{attribute}}のフォーマットが正しくありません。",
+    "typeError": "{{attribute}}は数字でなければなりません。",
+    "positive": "{{attribute}}はゼロより大きくなければなりません。",
+    "password_incorrect": "パスワードは6文字以上で、半角アルファベット大文字、小文字と半角数字を含む必要があります。"
+  },
+  "fc_setting_comtor": {
+    "title": "FC－PRAの設定",
+    "table": {
+      "header": {
+        "select": "選択"
+      }
+    },
+    "form": {
+      "franchise_name": "フランチャイズ名",
+      "host_list": "ホスト一覧",
+      "placeholder_host_list": "何も選択しませんでした",
+      "updated": "更新しました。"
+    },
+    "filter": {
+      "group": "グループ",
+      "company": "会社",
+      "role": "権限"
+    },
+    "comtor_list": "PRA一覧"
+  },
+  "privacy": {
+    "title": "個人情報の取扱いについて"
+  },
+  "errors": {
+    "notpermission": {
+      "title": "権限がありません。",
+      "content": "権限がありません。",
+      "sidebar": "権限"
+    }
+  },
+  "facilities": {
+    "title": "施設管理",
+    "tbl_name": "名前",
+    "tbl_country_code": "国コード",
+    "tbl_city": "市",
+    "tbl_street": "ストリート",
+    "btn_create_new": "新規作成",
+    "btn_edit": "修正",
+    "btn_delete": "削除",
+    "btn_save": "保存",
+    "btn_cancel": "キャンセル",
+    "modal_delete_title": "施設を削除",
+    "modal_delete_message": "この施設を削除してもよろしいですか？",
+    "modal_save_create_title": "施設を作成",
+    "modal_save_update_title": "施設更新",
+    "modal_save_name": "名前",
+    "modal_save_facility_code": "名前コード",
+    "modal_save_country_code": "国コード",
+    "modal_save_state": "州",
+    "modal_save_city": "市",
+    "modal_save_street": "ストリート",
+    "modal_save_zipcode": "郵便番号",
+    "modal_save_longtitude": "経度",
+    "modal_save_lattitude": "緯度",
+    "modal_save_directions": "方向",
+    "modal_save_auth_id": "TEMA施設ID",
+    "modal_save_auth_pass": "TEMAパスワード",
+    "modal_save_agent_code": "エージェントコード",
+    "modal_save_agent_user_id": "予約サイトのユーザID",
+    "modal_save_agent_password": "予約サイトのパスワード",
+    "modal_save_is_sync": "同期更新",
+    "modal_save_status": "接続ステータス"
+  },
+  "temairazu_price": {
+    "mess_select_plan": "Select plan, please!",
+    "servicer_select": "Select OTA/RoomType/Plan",
+    "plan_select": "Select Plan",
+    "modal_title": "価格追加",
+    "modal_start_date": "開始日",
+    "modal_end_date": "終了日",
+    "modal_availability": "可用性",
+    "modal_available": "可用",
+    "modal_blocked": "ブロックされた",
+    "close": "閉じる",
+    "update": "更新",
+    "modal_num_of_people": "人数{{people}}",
+    "modal_price": "価格{{price}}",
+    "num_of_people": "人数",
+    "price": "価格",
+    "is_sync": "Is Sync ?",
+    "room_charge": "ルームチャージフラグ"
+  },
+  "1": "１",
+  "2": "２",
+  "3": "３",
+  "4": "４",
+  "5": "５",
+  "6": "６",
+  "7": "７",
+  "8": "８",
+  "9": "９",
+  "airBnBListingProperies": {
+    "property_type_group": {
+      "apartments": "マンション・アパート",
+      "bnb": "B&B",
+      "boutique_hotels_and_more": "デザイナーズホテル",
+      "houses": "住宅",
+      "secondary_units": "サブユニット",
+      "unique_homes": "ユニークなお部屋"
+    },
+    "property_type_category": {
+      "aparthotel": "アパートホテル",
+      "apartment": "マンション&アパート",
+      "barn": "納屋",
+      "bnb": "B&B",
+      "bus": "バス",
+      "boat": "ボート&船舶",
+      "boutique_hotel": "デザイナーズホテル",
+      "bungalow": "バンガロー",
+      "cabin": "ログハウス",
+      "campsite": "キャンプ場",
+      "casa_particular": "カサ・パルティクラル（キューバ）",
+      "castle": "城",
+      "cave": "洞窟",
+      "chalet": "シャレー",
+      "condominium": "コンドミニアム",
+      "cottage": "コテージ",
+      "cycladic_house": "キクラデス様式の家（ギリシャ）",
+      "dammuso": "ダムーゾ（イタリア）",
+      "dome_house": "ドームハウス",
+      "earthhouse": "土の家",
+      "farm_stay": "農家民泊",
+      "guest_suite": "ゲストスイート",
+      "guesthouse": "離れ",
+      "heritage_hotel": "ヘリテージホテル（インド）",
+      "hostel": "ホステル（ゲストハウス[日本]/ドミトリー）",
+      "hotel": "ホテル",
+      "house": "一軒家",
+      "houseboat": "ハウスボート",
+      "hut": "古民家",
+      "igloo": "かまくら",
+      "island": "島",
+      "lighthouse": "灯台",
+      "lodge": "ロッジ",
+      "loft": "ロフト",
+      "minsu": "民宿（台湾）",
+      "pension": "ペンション(韓国)",
+      "plane": "飛行機",
+      "resort": "リゾートホテル・別荘",
+      "rv": "キャンピングカー・RV",
+      "ryokan": "旅館",
+      "serviced_apartment": "マンスリー・サービスアパートメント",
+      "shepherds_hut": "羊飼いの小屋(英、仏)",
+      "tent": "テント",
+      "tiny_house": "タイニーハウス",
+      "tipi": "ティピー",
+      "townhouse": "タウンハウス(町家・長屋)",
+      "train": "電車",
+      "treehouse": "ツリーハウス",
+      "trullo": "トルッロ（イタリア）",
+      "villa": "ヴィラ",
+      "windmill": "風車小屋",
+      "yurt": "ユルト(パオ、ゲル)"
+    },
+    "property_type_data": {
+      "mansion_Apartment": "マンション・アパート",
+      "housing": "住宅",
+      "sub_unit": "サブユニット",
+      "unit_room": "ユニークなお部屋",
+      "bb": "B&B",
+      "designers_hotel": "デザイナーズホテル"
+    },
+    "room_type_category": {
+      "private_room": "個室",
+      "shared_room": "シェアルーム",
+      "entire_home": "まるまる貸切"
+    },
+    "bed_types": {
+      "king_bed": "キング",
+      "queen_bed": "クイーン",
+      "double_bed": "ダブル",
+      "small_double_bed": "セミダブル",
+      "single_bed": "シングルベッド",
+      "sofa_bed": "ソファー・ベッド",
+      "couch": "カウチ",
+      "air_mattress": "エアーマットレス",
+      "bunk_bed": "2段ベッド",
+      "floor_mattress": "フロアマットレス",
+      "toddler_bed": "子ども用ベッド",
+      "crib": "ベビーベッド ",
+      "water_bed": "ウォーターベッド",
+      "hammock": "ハンモック"
+    },
+    "room_amenities": {
+      "en_suite_bathroom": "専用バスルーム"
+    },
+    "locales": {
+      "en":"English",
+      "ja":"日本語",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "ca": "Català",
+      "da": "Dansk",
+      "de": "Deutsch",
+      "es": "Español",
+      "el": "Eλληνικά",
+      "fr": "Français",
+      "hr": "Hrvatski",
+      "it": "Italiano",
+      "hu": "Magyar",
+      "nl": "Nederlands",
+      "no": "Norsk",
+      "pl": "Polski",
+      "pt": "Português",
+      "fi": "Suomi",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "is": "Íslenska",
+      "cs": "Čeština",
+      "ru": "Русский",
+      "he": "עברית",
+      "ar": "العربية",
+      "th": "ภาษาไทย",
+      "zh": "中文 (简体)",
+      "zh-TW": "中文 (繁體)",
+      "ko": "한국어"
+    }
+  },
+  "photo_drag_and_drop": "ここで写真をドラッグ＆ドロップするか、写真をクリックして選択します",
+  "photo_drop": "ここに写真をドロップしてください...",
+  "sync_on_airbnb": {
+    "btn_save_and_sync_airbnb": "Airbnbに保存して同期",
+    "title": "Airbnbで同期",
+    "select_host": "ホストを選択",
+    "message": "ホストアカウントを1つ選択してください",
+    "btn_cancel": "キャンセル",
+    "btn_sync": "Airbnbで同期",
+    "btn_sync_photo": "画像の同期"
+  },
+  "currencies_exchange": {
+    "title": "外貨両替",
+    "buttons": {
+      "update": "更新",
+      "add": "追加"
+    },
+    "available_date": "有効期限：{{availableDate}}日",
+    "modal_update_available_date": {
+      "title": "有効期間",
+      "labels": {
+        "available_date": "有効期間",
+        "day": "日"
+      },
+      "buttons": {
+        "cancel": "キャンセル",
+        "save": "保存"
+      }
+    },
+    "modal_save_currency_exchange": {
+      "title": "通貨詳細",
+      "title_update": "通貨詳細",
+      "labels": {
+        "currency": "通貨コード",
+        "company": "FC",
+        "exchangeValue": "レート",
+        "month": "月",
+        "year": "年",
+        "m1": "1月",
+        "m2": "2月",
+        "m3": "3月",
+        "m4": "4月",
+        "m5": "5月",
+        "m6": "6月",
+        "m7": "7月",
+        "m8": "8月",
+        "m9": "9月",
+        "m10": "10月",
+        "m11": "11月",
+        "m12": "12月"
+      },
+      "buttons": {
+        "cancel": "キャンセル",
+        "create": "追加",
+        "update": "保存"
+      }
+    },
+    "table": {
+      "currency": "通貨コード",
+      "exchangeValue": "レート（円）",
+      "updatedAt": "更新日時"
+    }
+  },
+  "comma_symbol": "、",
+  "app_configs": {
+    "title": "アプリの情報",
+    "form": {
+      "btn_create_client": "リセット",
+      "client_id": "クライアントID",
+      "client_secret": "クライアントシークレット",
+      "redirect_urls": "リダイレクト先URL",
+      "btn_add_anothers": "さらに追加",
+      "webhook_reservatiion_url": "予約用URL",
+      "webhook_notification_url": "通知用URL",
+      "authentication_type": "認証",
+      "authentication_type_basic": "Basic認証を使う",
+      "authentication_type_signature": "SHA-256署名を使用",
+      "authentication_username": "ユーザー名",
+      "authentication_password": "パスワード",
+      "checkstock": "在庫管理",
+      "checkstock_pms": "PMS",
+      "checkstock_partner": "Partner",
+      "show_the_public_key": "公開鍵を表示",
+      "alert": {
+        "save": "更新しました。"
+      }
+    },
+    "modal": {
+      "title": "Webhookシグネチャ公開鍵"
+    }
+  },
+  "heyawari": {
+    "fc":"FC",
+    "host":"ホスト",
+    "listing":"リスティング",
+    "rooms": "部屋",
+    "month":"月",
+    "prev_month": "前月",
+    "next_month": "次月",
+    "customer_name": "顧客名",
+    "reservation_code": "予約コード",
+    "price": "価格",
+    "btn_focus": "選択",
+    "btn_change_room": "部屋割り",
+    "change_resource": {
+      "title": "部屋切替",
+      "reservation_code": "予約コード",
+      "checkin": "チェックイン日",
+      "checkout": "チェックアウト日",
+      "listing_name": "リスティング",
+      "switch_resource": "に切替"
+    }
+  },
+  "ical": {
+    "modal": {
+      "title": "カレンダー出力",
+      "label": "リンクをコピーして他のICALアプリに貼ってください"
+    }
+  }
+}
