@@ -1,7 +1,7 @@
 import gmo from 'gmo';
 import co from 'co';
 import Q from 'q';
-import config from '@utils/gmo/config';
+import config from '$utils/gmo/config';
 // import logger from '../logger';
 
 /*
