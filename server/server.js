@@ -40,7 +40,6 @@ app.use(
 app.use('/api', Api);
 
 // Mount the react render handler
-
 app.use('*', ReactRenderer);
 
 module.exports = app;

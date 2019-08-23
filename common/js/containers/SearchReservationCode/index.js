@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
 import {
-  charge,
-} from '@actions/gmo-payment';
+  searchReservationCode,
+} from '@actions/search-reservation-code';
 import { Container } from 'semantic-ui-react';
 import {
   SearchReservationCodeForm
@@ -18,11 +18,11 @@ class SearchReservationCodeContainer extends Component {
     dispatch: PropTypes.func.isRequired
   };
 
-  charge = params => {
+  searchReservationCode = params => {
     const { dispatch } = this.props;
 
     if (params) {
-      dispatch(charge(params));
+      dispatch(searchReservationCode(params));
     }
   };
 
@@ -37,7 +37,7 @@ class SearchReservationCodeContainer extends Component {
         </Helmet>
         <h1>{title}</h1>
         <SearchReservationCodeForm
-          charge={this.charge}
+          searchReservationCode={this.searchReservationCode}
         />
       </Container>
     );

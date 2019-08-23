@@ -171,7 +171,6 @@ export default withFormik({
     //   expire: `20${values[FIELD_NAMES.expireYear]}${values[FIELD_NAMES.expireMonth]}`,
     //   securitycode: values.security_code,
     // };
-    console.log(values);
     let isNG = false;
 
     setErrors({});
@@ -183,6 +182,6 @@ export default withFormik({
       }
     });
     if (isNG) return false;
-    // props.charge(values);
+    props.searchReservationCode(values);
   }
 })(SearchReservationCodeForm);

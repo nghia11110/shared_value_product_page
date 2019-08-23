@@ -9,6 +9,8 @@ export const FETCH_TODOS_FAILURE = 'FETCH_TODOS_FAILURE';
 export const CHARGE = 'CHARGE';
 export const REFUND = 'REFUND';
 
+export const SEARCH_RESERVATION_CODE = 'SEARCH_RESERVATION_CODE';
+
 export const COLORS = {
   MAIN: '#f65151',
   LIGHT_MAIN: '#f75c4c',
