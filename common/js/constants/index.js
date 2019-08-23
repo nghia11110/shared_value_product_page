@@ -45,7 +45,7 @@ export const BREAKPOINT = {
   PHONE: 480,
 };
 
-export const DEFAULT_LANGUAGE = 'en';
+export const DEFAULT_LANGUAGE = 'ja';
 export const LANGUAGE_OPTIONS = [
   { key: 'English', text: 'English', value: 'en' },
   { key: '日本語', text: 'Japanese', value: 'ja' },
