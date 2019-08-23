@@ -32,6 +32,7 @@
   "btnPrev": "前へ",
   "btnNext": "次へ",
   "btnFinish": "完了",
+  "btnBackToHome": "ホームに戻る",
   "password": "パスワード",
   "active": "アクティベート",
   "msg_fail": "更新に失敗しました。",

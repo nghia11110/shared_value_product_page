@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch } from 'react-router-dom';
+import { Switch, withRouter } from 'react-router-dom';
 import { Container } from 'semantic-ui-react';
 import { Header, Footer, RouteWithSubRoutes } from '@components/common';
 import { hot } from 'react-hot-loader';
@@ -17,4 +17,4 @@ const App = () => (
   </Container>
 );
 
-export default hot(module)(App);
+export default hot(module)(withRouter(App));

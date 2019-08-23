@@ -32,6 +32,7 @@
   "btnPrev": "<",
   "btnNext": ">",
   "btnFinish": "Done",
+  "btnBackToHome": "Back to home",
   "password": "Password",
   "active": "Active",
   "msg_fail": "Updated failed",
