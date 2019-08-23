@@ -51,7 +51,8 @@
     "checkin": "チェックイン",
     "checkout": "チェックアウト",
     "phone_number": "携帯番号の下４桁",
-    "result": "予約コード"
+    "result": "予約コード",
+    "not_found": "予約が見つかりませんでした"
   },
   "is_required": "必須",
   "is_optional": "任意"

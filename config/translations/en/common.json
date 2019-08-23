@@ -51,7 +51,8 @@
     "checkin": "Checkin date",
     "checkout": "Checkout date",
     "phone_number": "Last 4 digits in your phone number",
-    "result": "Reservation Code"
+    "result": "Reservation Code",
+    "not_found": "Reservation not found"
   },
   "is_required": "required",
   "is_optional": "optional"
