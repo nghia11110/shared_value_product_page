@@ -4,10 +4,11 @@ import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
 import {
   searchReservationCode,
+  updateReservationCodeAction,
 } from '@actions/search-reservation-code';
 import { Container } from 'semantic-ui-react';
 import {
-  SearchReservationCodeForm
+  SearchReservationCodeForm,
 } from '@components/search-reservation-code';
 import SelectLanguage from '@components/common/SelectLanguage';
 import { withNamespaces } from 'react-i18next';
@@ -25,6 +26,12 @@ class SearchReservationCodeContainer extends Component {
       dispatch(searchReservationCode(params));
     }
   };
+
+  componentDidUpdate() {
+    const { dispatch } = this.props;
+
+    dispatch(updateReservationCodeAction(''));
+  }
 
   render() {
     const title = i18n.t('common:search_reservation_code.title');

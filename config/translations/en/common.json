@@ -50,7 +50,8 @@
     "last_name": "Last name",
     "checkin": "Checkin date",
     "checkout": "Checkout date",
-    "phone_number": "Last 4 digits in your phone number"
+    "phone_number": "Last 4 digits in your phone number",
+    "result": "Reservation Code"
   },
   "is_required": "required",
   "is_optional": "optional"

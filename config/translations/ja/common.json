@@ -50,7 +50,8 @@
     "last_name": "姓",
     "checkin": "チェックイン",
     "checkout": "チェックアウト",
-    "phone_number": "携帯番号の下４桁"
+    "phone_number": "携帯番号の下４桁",
+    "result": "予約コード"
   },
   "is_required": "必須",
   "is_optional": "任意"
