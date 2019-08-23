@@ -8,7 +8,7 @@ import CreditField from '@components/common/CreditField';
 import TextInput from '@components/common/TextInput';
 import FieldContainer from '@components/common/FieldContainer';
 import QuestionTitle from '@components/common/QuestionTitle';
-import gmoConfig from '@utils/gmo/config';
+import gmoConfig from '$utils/gmo/config';
 
 const {
   SHOP_CONFIG,
