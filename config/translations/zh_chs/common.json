@@ -52,8 +52,8 @@
     "checkin": "入住日",
     "checkout": "退房日",
     "phone_number": "電話號碼後４碼",
-    "result": "Reservation Code",
-    "not_found": "Reservation not found"
+    "result": "預約號碼",
+    "not_found": "預約 not found"
   },
   "is_required": "必須",
   "is_optional": "選填"
