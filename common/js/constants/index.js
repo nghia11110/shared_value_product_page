@@ -50,5 +50,5 @@ export const LANGUAGE_OPTIONS = [
   { key: 'English', text: 'English', value: 'en' },
   { key: '日本語', text: 'Japanese', value: 'ja' },
   { key: '简体中文', text: 'Chinese', value: 'zh_chs' },
-  { key: '한국어', text: 'Korean', value: 'ko' },
+  // { key: '한국어', text: 'Korean', value: 'ko' },
 ]

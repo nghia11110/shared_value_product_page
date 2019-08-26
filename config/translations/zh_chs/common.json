@@ -28,7 +28,7 @@
   "create": "Create",
   "invitation": "Invite",
   "save_setting": "Save",
-  "search_placeholder": "Search",
+  "search_placeholder": "搜尋",
   "btnPrev": "<",
   "btnNext": ">",
   "btnFinish": "Done",
@@ -42,19 +42,19 @@
   "yes": "Yes",
   "no": "No",
   "sidebar": {
-    "home": "Home"
+    "home": "首頁"
   },
   "search_reservation_code": {
-    "title": "Search Reservation Code",
-    "description": "Please fill out this form and click search button",
-    "first_name": "First name",
-    "last_name": "Last name",
-    "checkin": "Checkin date",
-    "checkout": "Checkout date",
-    "phone_number": "Last 4 digits in your phone number",
+    "title": "搜尋預約號碼",
+    "description": "請填寫表格並按下搜尋鍵",
+    "first_name": "名",
+    "last_name": "姓",
+    "checkin": "入住日",
+    "checkout": "退房日",
+    "phone_number": "電話號碼後４碼",
     "result": "Reservation Code",
     "not_found": "Reservation not found"
   },
-  "is_required": "required",
-  "is_optional": "optional"
+  "is_required": "必須",
+  "is_optional": "選填"
 }
