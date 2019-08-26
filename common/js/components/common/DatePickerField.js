@@ -14,7 +14,9 @@ const DatePickerField = ({ name, value, onChange }) => {
       <DatePicker
         selected={(value && new Date(value)) || null}
         onChange={val => {
-          onChange(name, val);
+          const dt = new Date(val);
+          dt.setHours( dt.getHours() -  dt.getTimezoneOffset()/60); // set timezone
+          onChange(name, dt);
         }}
       />
     </InputWrapper>
